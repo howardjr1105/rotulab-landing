@@ -2,6 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { Target, Eye } from 'lucide-react';
+import { FacebookIcon, InstagramIcon, TikTokIcon } from '@/components/icons/SocialIcons';
+import { businessConfig } from '@/config/business';
 import styles from './About.module.css';
 
 export default function About() {
@@ -81,7 +83,7 @@ export default function About() {
             variants={fadeUpVariants}
             style={{
               '--card-hover-border': 'var(--neon-cyan)',
-              '--card-hover-shadow': 'rgba(0, 240, 255, 0.1)',
+              '--card-hover-shadow': 'rgba(227, 6, 19, 0.2)',
             }}
           >
             <div className={`${styles.cardIcon} ${styles.cardIconCyan}`}>
@@ -102,7 +104,7 @@ export default function About() {
             variants={fadeUpVariants}
             style={{
               '--card-hover-border': 'var(--neon-orange)',
-              '--card-hover-shadow': 'rgba(255, 90, 0, 0.1)',
+              '--card-hover-shadow': 'rgba(255, 255, 255, 0.1)',
             }}
           >
             <div className={`${styles.cardIcon} ${styles.cardIconOrange}`}>
@@ -114,6 +116,69 @@ export default function About() {
             </p>
           </motion.div>
         </div>
+
+        {/* Sección de Redes Sociales del Negocio */}
+        <motion.div
+          className={styles.socialSection}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          variants={fadeUpVariants}
+        >
+          <h3 className={styles.socialTitle}>Conecta Con Nosotros</h3>
+          <div className={styles.socialLinks}>
+            {/* Instagram */}
+            <a
+              href={businessConfig.social.instagram.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.socialLink}
+              aria-label={businessConfig.social.instagram.label}
+              style={{
+                '--social-hover-bg': businessConfig.social.instagram.colors.hoverBg,
+                '--social-hover-border': businessConfig.social.instagram.colors.hoverBorder,
+                '--social-hover-shadow': businessConfig.social.instagram.colors.hoverShadow,
+              }}
+            >
+              <InstagramIcon size={20} />
+              Instagram
+            </a>
+
+            {/* Facebook */}
+            <a
+              href={businessConfig.social.facebook.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.socialLink}
+              aria-label={businessConfig.social.facebook.label}
+              style={{
+                '--social-hover-bg': businessConfig.social.facebook.colors.hoverBg,
+                '--social-hover-border': businessConfig.social.facebook.colors.hoverBorder,
+                '--social-hover-shadow': businessConfig.social.facebook.colors.hoverShadow,
+              }}
+            >
+              <FacebookIcon size={20} />
+              Facebook
+            </a>
+
+            {/* TikTok */}
+            <a
+              href={businessConfig.social.tiktok.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.socialLink}
+              aria-label={businessConfig.social.tiktok.label}
+              style={{
+                '--social-hover-bg': businessConfig.social.tiktok.colors.hoverBg,
+                '--social-hover-border': businessConfig.social.tiktok.colors.hoverBorder,
+                '--social-hover-shadow': businessConfig.social.tiktok.colors.hoverShadow,
+              }}
+            >
+              <TikTokIcon size={20} />
+              TikTok
+            </a>
+          </div>
+        </motion.div>
       </div>
     </section>
   );

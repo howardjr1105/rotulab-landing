@@ -2,12 +2,16 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
+import { businessConfig } from '@/config/business';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,7 +38,7 @@ export default function Navbar() {
     <nav className={`${styles.navbar} ${scrolled ? styles.navbarScrolled : ''}`}>
       <div className={styles.container}>
         {/* Logo de la Marca */}
-        <a href="#inicio" className={styles.logoContainer} onClick={closeMenu}>
+        <Link href="/" className={styles.logoContainer} onClick={closeMenu}>
           <Image
             src="/images/logos/2026_01_03_11_15_00_IMG_0018.PNG"
             alt="Logo de Rotulab"
@@ -45,35 +49,23 @@ export default function Navbar() {
           <span className={styles.logoText}>
             ROTULAB
           </span>
-        </a>
+        </Link>
 
         {/* Enlaces de Navegación de Escritorio */}
         <ul className={styles.navLinks}>
-          <li>
-            <a href="#inicio" className={styles.navLink}>
-              Inicio
-            </a>
-          </li>
-          <li>
-            <a href="#nosotros" className={styles.navLink}>
-              Nosotros
-            </a>
-          </li>
-          <li>
-            <a href="#servicios" className={styles.navLink}>
-              Servicios
-            </a>
-          </li>
-          <li>
-            <a href="#portafolio" className={styles.navLink}>
-              Portafolio
-            </a>
-          </li>
-          <li>
-            <a href="#contacto" className={styles.navLink}>
-              Contacto
-            </a>
-          </li>
+          {businessConfig.navigation.map((link) => {
+            const isActive = pathname === link.path;
+            return (
+              <li key={link.path}>
+                <Link 
+                  href={link.path} 
+                  className={`${styles.navLink} ${isActive ? styles.navLinkActive : ''}`}
+                >
+                  {link.name}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
 
         {/* Botón de Menú Móvil */}
@@ -87,35 +79,24 @@ export default function Navbar() {
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
 
-        {/* Menú de Navegación Móvil (Condicionado para evitar duplicación de enlaces en el DOM inicial) */}
+        {/* Menú de Navegación Móvil */}
         {isOpen && (
           <div id="mobile-menu-nav" className={`${styles.mobileMenu} ${styles.mobileMenuOpen}`}>
             <ul className={styles.mobileNavLinks}>
-              <li>
-                <a href="#inicio" className={styles.mobileNavLink} onClick={closeMenu}>
-                  Inicio
-                </a>
-              </li>
-              <li>
-                <a href="#nosotros" className={styles.mobileNavLink} onClick={closeMenu}>
-                  Nosotros
-                </a>
-              </li>
-              <li>
-                <a href="#servicios" className={styles.mobileNavLink} onClick={closeMenu}>
-                  Servicios
-                </a>
-              </li>
-              <li>
-                <a href="#portafolio" className={styles.mobileNavLink} onClick={closeMenu}>
-                  Portafolio
-                </a>
-              </li>
-              <li>
-                <a href="#contacto" className={styles.mobileNavLink} onClick={closeMenu}>
-                  Contacto
-                </a>
-              </li>
+              {businessConfig.navigation.map((link) => {
+                const isActive = pathname === link.path;
+                return (
+                  <li key={link.path}>
+                    <Link
+                      href={link.path}
+                      className={`${styles.mobileNavLink} ${isActive ? styles.mobileNavLinkActive : ''}`}
+                      onClick={closeMenu}
+                    >
+                      {link.name}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         )}

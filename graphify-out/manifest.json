@@ -1,0 +1,222 @@
+{
+  "app/contacto/page.js": {
+    "mtime": 1780687283.0846643,
+    "ast_hash": "51403727bf991e6504da9106e910b5a1",
+    "semantic_hash": ""
+  },
+  "app/layout.js": {
+    "mtime": 1780687365.2325227,
+    "ast_hash": "5154368922137d69bcafacd3e541accf",
+    "semantic_hash": ""
+  },
+  "app/nosotros/page.js": {
+    "mtime": 1780687275.941878,
+    "ast_hash": "b58afadc0522bcb206964b6b14cd44d2",
+    "semantic_hash": ""
+  },
+  "app/page.js": {
+    "mtime": 1780687285.4465294,
+    "ast_hash": "5acebd51029ec45f32aa529a759d0acc",
+    "semantic_hash": ""
+  },
+  "app/portafolio/page.js": {
+    "mtime": 1780687280.4279094,
+    "ast_hash": "672f69b5762ecfdd91571784f43fb795",
+    "semantic_hash": ""
+  },
+  "app/servicios/page.js": {
+    "mtime": 1780687278.125881,
+    "ast_hash": "f61c619c0449d38c6a1b966bd79e8080",
+    "semantic_hash": ""
+  },
+  "components/About.jsx": {
+    "mtime": 1780687369.146423,
+    "ast_hash": "977d9bcc90f35d203502a388d597bbf8",
+    "semantic_hash": ""
+  },
+  "components/Contact.jsx": {
+    "mtime": 1780683082.283731,
+    "ast_hash": "db9dc4622ab6d41c6f8dc9c7537974fc",
+    "semantic_hash": ""
+  },
+  "components/Footer.jsx": {
+    "mtime": 1780687299.5479474,
+    "ast_hash": "1dfabba59f4220dc0e796c99d514bf70",
+    "semantic_hash": ""
+  },
+  "components/Hero.jsx": {
+    "mtime": 1780682777.775758,
+    "ast_hash": "17f92fac1b7e039ca3bd785a15c08fb3",
+    "semantic_hash": ""
+  },
+  "components/Navbar.jsx": {
+    "mtime": 1780687288.4162319,
+    "ast_hash": "0b3ca862799538a9184f0a67ff0dd20c",
+    "semantic_hash": ""
+  },
+  "components/Portfolio.jsx": {
+    "mtime": 1780683079.410504,
+    "ast_hash": "c56af0ae4d69a87dfdb257e8a8a1c442",
+    "semantic_hash": ""
+  },
+  "components/Services.jsx": {
+    "mtime": 1780687390.040449,
+    "ast_hash": "fe887855f545273ced4eb16845de3d01",
+    "semantic_hash": ""
+  },
+  "config/business.js": {
+    "mtime": 1780687914.110976,
+    "ast_hash": "02da270177cf26b9219ca50e05280b7f",
+    "semantic_hash": ""
+  },
+  "config/portfolio.js": {
+    "mtime": 1780682843.509422,
+    "ast_hash": "0c32ea57360788c36384ca41c2b6caf2",
+    "semantic_hash": ""
+  },
+  "config/services.js": {
+    "mtime": 1780682550.8783593,
+    "ast_hash": "0e10a8d71317c89c8d6b942b631f590a",
+    "semantic_hash": ""
+  },
+  "jest.config.js": {
+    "mtime": 1780682544.3289716,
+    "ast_hash": "7432dc1102e2d4d345c2307646ead022",
+    "semantic_hash": ""
+  },
+  "jest.setup.js": {
+    "mtime": 1780682854.7838452,
+    "ast_hash": "a0d15b87d9ff27c504eaf8937a21684f",
+    "semantic_hash": ""
+  },
+  "jsconfig.json": {
+    "mtime": 1780682563.9499674,
+    "ast_hash": "21306b44064ae42bbbd715b1986abaf8",
+    "semantic_hash": ""
+  },
+  "middleware.js": {
+    "mtime": 1780687304.9049296,
+    "ast_hash": "59df7d9a2c6bd24249bc990d5feae55b",
+    "semantic_hash": ""
+  },
+  "package.json": {
+    "mtime": 1780682614.3460538,
+    "ast_hash": "da8b90df53e7b1a504cbb591cddcbe3b",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1780683158.8555787,
+    "ast_hash": "23632b155cade1ae4e50c37e1207420d",
+    "semantic_hash": ""
+  },
+  "design-system/rotulab/MASTER.md": {
+    "mtime": 1780682644.273074,
+    "ast_hash": "55e48b5ec9128c45fe0da5b2bd1d632b",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_03_09_41_33_IMG_0013.PNG": {
+    "mtime": 1780682661.6020048,
+    "ast_hash": "9b395d45cb7c674b1fe8646c758ada8c",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_03_11_00_47_IMG_0014.JPG": {
+    "mtime": 1780682661.6027772,
+    "ast_hash": "4abc8f1e58f2611a80b9a9598e62291c",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_03_11_01_06_IMG_0015.PNG": {
+    "mtime": 1780682661.6033618,
+    "ast_hash": "6744d0c1c199bb5d5405c4003e014a0d",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_03_11_12_27_IMG_0016.JPG": {
+    "mtime": 1780682661.6048434,
+    "ast_hash": "da4897dcfa789fef30bd749716890c16",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_03_11_14_38_IMG_0017.PNG": {
+    "mtime": 1780682661.6054742,
+    "ast_hash": "e7f24a0089be12e1611bdd88651b1131",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_03_11_15_00_IMG_0018.PNG": {
+    "mtime": 1780682661.6070714,
+    "ast_hash": "682bf48792de64fed453150611e027ec",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_05_16_30_29_IMG_0053.PNG": {
+    "mtime": 1780682661.6077495,
+    "ast_hash": "db4f3f68049938be354659984e3aa607",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_05_16_30_33_IMG_0054.PNG": {
+    "mtime": 1780682661.608282,
+    "ast_hash": "9b395d45cb7c674b1fe8646c758ada8c",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_05_16_30_41_IMG_0055.PNG": {
+    "mtime": 1780682661.6088538,
+    "ast_hash": "e7f24a0089be12e1611bdd88651b1131",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_05_16_34_57_IMG_0056.PNG": {
+    "mtime": 1780682661.609408,
+    "ast_hash": "29c8d0ae3925a4bb3076e23ecd6bf3e2",
+    "semantic_hash": ""
+  },
+  "public/images/logos/2026_01_05_16_35_32_IMG_0057.PNG": {
+    "mtime": 1780682661.6100655,
+    "ast_hash": "29c8d0ae3925a4bb3076e23ecd6bf3e2",
+    "semantic_hash": ""
+  },
+  "public/images/portfolio/2026_05_11_18_16_20_IMG_0469.JPG": {
+    "mtime": 1780682661.6149118,
+    "ast_hash": "678eb290d0d22406f39612d403411be9",
+    "semantic_hash": ""
+  },
+  "public/images/portfolio/2026_05_11_18_16_56_IMG_0470.JPG": {
+    "mtime": 1780682661.6157014,
+    "ast_hash": "b9d36a449d06e0d593f42cfdb023d5e7",
+    "semantic_hash": ""
+  },
+  "public/images/portfolio/2026_05_11_18_17_32_IMG_0471.JPG": {
+    "mtime": 1780682661.6177325,
+    "ast_hash": "46c53d7cb53746417ec2238e38d81f8f",
+    "semantic_hash": ""
+  },
+  "public/images/portfolio/2026_05_11_18_18_32_IMG_0472.JPG": {
+    "mtime": 1780682661.6194293,
+    "ast_hash": "b74285588b779d18288dec0dee56ad5d",
+    "semantic_hash": ""
+  },
+  "public/images/portfolio/2026_05_11_18_18_56_IMG_0473.JPG": {
+    "mtime": 1780682661.6203523,
+    "ast_hash": "acb5fae1270461d059a15800f7ed76b0",
+    "semantic_hash": ""
+  },
+  "public/images/portfolio/2026_05_11_18_19_53_IMG_0474.JPG": {
+    "mtime": 1780682661.6222742,
+    "ast_hash": "1178129c911ba2379989da7d1fdba31e",
+    "semantic_hash": ""
+  },
+  "public/images/portfolio/IMG_3414.jpg": {
+    "mtime": 1780682661.6236887,
+    "ast_hash": "bf76edffb58947573cc5a8e32f180c28",
+    "semantic_hash": ""
+  },
+  "public/images/portfolio/IMG_5455.jpg": {
+    "mtime": 1780682661.624814,
+    "ast_hash": "29ee40cc27df15a453fa1e4ce22f11e6",
+    "semantic_hash": ""
+  },
+  "public/images/portfolio/IMG_5456.jpg": {
+    "mtime": 1780682661.6253974,
+    "ast_hash": "9d1021945898d1ae90e54262315534c1",
+    "semantic_hash": ""
+  },
+  "public/images/portfolio/IMG_5641.jpg": {
+    "mtime": 1780682661.6267056,
+    "ast_hash": "fe9456b27a78a2ee16bbeccd61d1c22e",
+    "semantic_hash": ""
+  }
+}
