@@ -24,36 +24,26 @@ const getIcon = (iconName, color = 'currentColor') => {
 const getNeonColors = (serviceId) => {
   switch (serviceId) {
     case 'nfc':
-    case '3d-printing':
-      return {
-        accent: '#00f0ff', // Cian
-        bgOpacity: 'rgba(0, 240, 255, 0.1)',
-        glow: 'rgba(0, 240, 255, 0.25)',
-      };
     case 'dtf':
-    case 'laser-cutting':
-      return {
-        accent: '#ff5a00', // Naranja
-        bgOpacity: 'rgba(255, 90, 0, 0.1)',
-        glow: 'rgba(255, 90, 0, 0.25)',
-      };
     case 'signage':
       return {
-        accent: '#00ff66', // Verde lima
-        bgOpacity: 'rgba(0, 255, 102, 0.1)',
-        glow: 'rgba(0, 255, 102, 0.25)',
+        accent: '#e30613', // Rojo oficial de ROTULAB
+        bgOpacity: 'rgba(227, 6, 19, 0.1)',
+        glow: 'rgba(227, 6, 19, 0.25)',
       };
+    case '3d-printing':
+    case 'laser-cutting':
     case 'audiovisual':
       return {
-        accent: '#bd00ff', // Violeta
-        bgOpacity: 'rgba(189, 0, 255, 0.1)',
-        glow: 'rgba(189, 0, 255, 0.25)',
+        accent: '#ffffff', // Blanco absoluto
+        bgOpacity: 'rgba(255, 255, 255, 0.1)',
+        glow: 'rgba(255, 255, 255, 0.25)',
       };
     default:
       return {
-        accent: '#00f0ff',
-        bgOpacity: 'rgba(0, 240, 255, 0.1)',
-        glow: 'rgba(0, 240, 255, 0.25)',
+        accent: '#e30613',
+        bgOpacity: 'rgba(227, 6, 19, 0.1)',
+        glow: 'rgba(227, 6, 19, 0.25)',
       };
   }
 };

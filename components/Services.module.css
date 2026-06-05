@@ -1,6 +1,6 @@
 .services {
   padding: 8rem 1.5rem;
-  background-color: #07090e;
+  background-color: var(--bg-dark-primary);
   position: relative;
 }
 
@@ -51,7 +51,7 @@
 
 /* Tarjetas de servicios */
 .card {
-  background: rgba(18, 24, 38, 0.4);
+  background: var(--bg-card-dark);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 16px;
   padding: 2.5rem 2rem;
@@ -136,7 +136,7 @@
 }
 
 .modalContent {
-  background: #0c0c0e;
+  background: var(--bg-dark-secondary);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 20px;
   max-width: 650px;

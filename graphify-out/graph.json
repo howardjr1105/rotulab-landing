@@ -1,0 +1,1817 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app/contacto/page.js",
+      "source_location": "L1",
+      "id": "contacto_page",
+      "community": 13,
+      "norm_label": "page.js"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/contacto/page.js",
+      "source_location": "L3",
+      "id": "contacto_page_metadata",
+      "community": 13,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "ContactoPage()",
+      "file_type": "code",
+      "source_file": "app/contacto/page.js",
+      "source_location": "L12",
+      "id": "contacto_page_contactopage",
+      "community": 13,
+      "norm_label": "contactopage()"
+    },
+    {
+      "label": "layout.js",
+      "file_type": "code",
+      "source_file": "app/layout.js",
+      "source_location": "L1",
+      "id": "app_layout",
+      "community": 5,
+      "norm_label": "layout.js"
+    },
+    {
+      "label": "montserrat",
+      "file_type": "code",
+      "source_file": "app/layout.js",
+      "source_location": "L4",
+      "id": "app_layout_montserrat",
+      "community": 5,
+      "norm_label": "montserrat"
+    },
+    {
+      "label": "inter",
+      "file_type": "code",
+      "source_file": "app/layout.js",
+      "source_location": "L11",
+      "id": "app_layout_inter",
+      "community": 5,
+      "norm_label": "inter"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/layout.js",
+      "source_location": "L18",
+      "id": "app_layout_metadata",
+      "community": 5,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app/layout.js",
+      "source_location": "L49",
+      "id": "app_layout_rootlayout",
+      "community": 5,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app/nosotros/page.js",
+      "source_location": "L1",
+      "id": "nosotros_page",
+      "community": 15,
+      "norm_label": "page.js"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/nosotros/page.js",
+      "source_location": "L3",
+      "id": "nosotros_page_metadata",
+      "community": 15,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "NosotrosPage()",
+      "file_type": "code",
+      "source_file": "app/nosotros/page.js",
+      "source_location": "L12",
+      "id": "nosotros_page_nosotrospage",
+      "community": 15,
+      "norm_label": "nosotrospage()"
+    },
+    {
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app/page.js",
+      "source_location": "L1",
+      "id": "app_page",
+      "community": 18,
+      "norm_label": "page.js"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "app/page.js",
+      "source_location": "L8",
+      "id": "app_page_home",
+      "community": 18,
+      "norm_label": "home()"
+    },
+    {
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app/portafolio/page.js",
+      "source_location": "L1",
+      "id": "portafolio_page",
+      "community": 16,
+      "norm_label": "page.js"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/portafolio/page.js",
+      "source_location": "L3",
+      "id": "portafolio_page_metadata",
+      "community": 16,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "PortafolioPage()",
+      "file_type": "code",
+      "source_file": "app/portafolio/page.js",
+      "source_location": "L12",
+      "id": "portafolio_page_portafoliopage",
+      "community": 16,
+      "norm_label": "portafoliopage()"
+    },
+    {
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app/servicios/page.js",
+      "source_location": "L1",
+      "id": "servicios_page",
+      "community": 17,
+      "norm_label": "page.js"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/servicios/page.js",
+      "source_location": "L3",
+      "id": "servicios_page_metadata",
+      "community": 17,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "ServiciosPage()",
+      "file_type": "code",
+      "source_file": "app/servicios/page.js",
+      "source_location": "L12",
+      "id": "servicios_page_serviciospage",
+      "community": 17,
+      "norm_label": "serviciospage()"
+    },
+    {
+      "label": "About.jsx",
+      "file_type": "code",
+      "source_file": "components/About.jsx",
+      "source_location": "L1",
+      "id": "components_about",
+      "community": 12,
+      "norm_label": "about.jsx"
+    },
+    {
+      "label": "TikTokIcon()",
+      "file_type": "code",
+      "source_file": "components/About.jsx",
+      "source_location": "L9",
+      "id": "components_about_tiktokicon",
+      "community": 12,
+      "norm_label": "tiktokicon()"
+    },
+    {
+      "label": "About()",
+      "file_type": "code",
+      "source_file": "components/About.jsx",
+      "source_location": "L24",
+      "id": "components_about_about",
+      "community": 12,
+      "norm_label": "about()"
+    },
+    {
+      "label": "Contact.jsx",
+      "file_type": "code",
+      "source_file": "components/Contact.jsx",
+      "source_location": "L1",
+      "id": "components_contact",
+      "community": 19,
+      "norm_label": "contact.jsx"
+    },
+    {
+      "label": "Contact()",
+      "file_type": "code",
+      "source_file": "components/Contact.jsx",
+      "source_location": "L8",
+      "id": "components_contact_contact",
+      "community": 19,
+      "norm_label": "contact()"
+    },
+    {
+      "label": "Footer.jsx",
+      "file_type": "code",
+      "source_file": "components/Footer.jsx",
+      "source_location": "L1",
+      "id": "components_footer",
+      "community": 7,
+      "norm_label": "footer.jsx"
+    },
+    {
+      "label": "TikTokIcon()",
+      "file_type": "code",
+      "source_file": "components/Footer.jsx",
+      "source_location": "L10",
+      "id": "components_footer_tiktokicon",
+      "community": 7,
+      "norm_label": "tiktokicon()"
+    },
+    {
+      "label": "getSocialIcon()",
+      "file_type": "code",
+      "source_file": "components/Footer.jsx",
+      "source_location": "L26",
+      "id": "components_footer_getsocialicon",
+      "community": 7,
+      "norm_label": "getsocialicon()"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "components/Footer.jsx",
+      "source_location": "L36",
+      "id": "components_footer_footer",
+      "community": 7,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "Hero.jsx",
+      "file_type": "code",
+      "source_file": "components/Hero.jsx",
+      "source_location": "L1",
+      "id": "components_hero",
+      "community": 20,
+      "norm_label": "hero.jsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "components/Hero.jsx",
+      "source_location": "L7",
+      "id": "components_hero_hero",
+      "community": 20,
+      "norm_label": "hero()"
+    },
+    {
+      "label": "Navbar.jsx",
+      "file_type": "code",
+      "source_file": "components/Navbar.jsx",
+      "source_location": "L1",
+      "id": "components_navbar",
+      "community": 21,
+      "norm_label": "navbar.jsx"
+    },
+    {
+      "label": "Navbar()",
+      "file_type": "code",
+      "source_file": "components/Navbar.jsx",
+      "source_location": "L11",
+      "id": "components_navbar_navbar",
+      "community": 21,
+      "norm_label": "navbar()"
+    },
+    {
+      "label": "Portfolio.jsx",
+      "file_type": "code",
+      "source_file": "components/Portfolio.jsx",
+      "source_location": "L1",
+      "id": "components_portfolio",
+      "community": 8,
+      "norm_label": "portfolio.jsx"
+    },
+    {
+      "label": "CATEGORIES",
+      "file_type": "code",
+      "source_file": "components/Portfolio.jsx",
+      "source_location": "L10",
+      "id": "components_portfolio_categories",
+      "community": 8,
+      "norm_label": "categories"
+    },
+    {
+      "label": "BRAND_LOGOS",
+      "file_type": "code",
+      "source_file": "components/Portfolio.jsx",
+      "source_location": "L21",
+      "id": "components_portfolio_brand_logos",
+      "community": 8,
+      "norm_label": "brand_logos"
+    },
+    {
+      "label": "Portfolio()",
+      "file_type": "code",
+      "source_file": "components/Portfolio.jsx",
+      "source_location": "L35",
+      "id": "components_portfolio_portfolio",
+      "community": 8,
+      "norm_label": "portfolio()"
+    },
+    {
+      "label": "Services.jsx",
+      "file_type": "code",
+      "source_file": "components/Services.jsx",
+      "source_location": "L1",
+      "id": "components_services",
+      "community": 9,
+      "norm_label": "services.jsx"
+    },
+    {
+      "label": "getIcon()",
+      "file_type": "code",
+      "source_file": "components/Services.jsx",
+      "source_location": "L10",
+      "id": "components_services_geticon",
+      "community": 9,
+      "norm_label": "geticon()"
+    },
+    {
+      "label": "getNeonColors()",
+      "file_type": "code",
+      "source_file": "components/Services.jsx",
+      "source_location": "L24",
+      "id": "components_services_getneoncolors",
+      "community": 9,
+      "norm_label": "getneoncolors()"
+    },
+    {
+      "label": "Services()",
+      "file_type": "code",
+      "source_file": "components/Services.jsx",
+      "source_location": "L51",
+      "id": "components_services_services",
+      "community": 9,
+      "norm_label": "services()"
+    },
+    {
+      "label": "business.js",
+      "file_type": "code",
+      "source_file": "config/business.js",
+      "source_location": "L1",
+      "id": "config_business",
+      "community": 22,
+      "norm_label": "business.js"
+    },
+    {
+      "label": "businessConfig",
+      "file_type": "code",
+      "source_file": "config/business.js",
+      "source_location": "L5",
+      "id": "config_business_businessconfig",
+      "community": 22,
+      "norm_label": "businessconfig"
+    },
+    {
+      "label": "portfolio.js",
+      "file_type": "code",
+      "source_file": "config/portfolio.js",
+      "source_location": "L1",
+      "id": "config_portfolio",
+      "community": 23,
+      "norm_label": "portfolio.js"
+    },
+    {
+      "label": "PORTFOLIO_DATA",
+      "file_type": "code",
+      "source_file": "config/portfolio.js",
+      "source_location": "L19",
+      "id": "config_portfolio_portfolio_data",
+      "community": 23,
+      "norm_label": "portfolio_data"
+    },
+    {
+      "label": "services.js",
+      "file_type": "code",
+      "source_file": "config/services.js",
+      "source_location": "L1",
+      "id": "config_services",
+      "community": 24,
+      "norm_label": "services.js"
+    },
+    {
+      "label": "SERVICES_DATA",
+      "file_type": "code",
+      "source_file": "config/services.js",
+      "source_location": "L18",
+      "id": "config_services_services_data",
+      "community": 24,
+      "norm_label": "services_data"
+    },
+    {
+      "label": "jest.config.js",
+      "file_type": "code",
+      "source_file": "jest.config.js",
+      "source_location": "L1",
+      "id": "jest_config",
+      "community": 10,
+      "norm_label": "jest.config.js"
+    },
+    {
+      "label": "nextJest",
+      "file_type": "code",
+      "source_file": "jest.config.js",
+      "source_location": "L1",
+      "id": "jest_config_nextjest",
+      "community": 10,
+      "norm_label": "nextjest"
+    },
+    {
+      "label": "createJestConfig",
+      "file_type": "code",
+      "source_file": "jest.config.js",
+      "source_location": "L3",
+      "id": "jest_config_createjestconfig",
+      "community": 10,
+      "norm_label": "createjestconfig"
+    },
+    {
+      "label": "customJestConfig",
+      "file_type": "code",
+      "source_file": "jest.config.js",
+      "source_location": "L7",
+      "id": "jest_config_customjestconfig",
+      "community": 10,
+      "norm_label": "customjestconfig"
+    },
+    {
+      "label": "jest.setup.js",
+      "file_type": "code",
+      "source_file": "jest.setup.js",
+      "source_location": "L1",
+      "id": "jest_setup",
+      "community": 25,
+      "norm_label": "jest.setup.js"
+    },
+    {
+      "label": "jsconfig.json",
+      "file_type": "code",
+      "source_file": "jsconfig.json",
+      "source_location": "L1",
+      "id": "jsconfig",
+      "community": 11,
+      "norm_label": "jsconfig.json"
+    },
+    {
+      "label": "compilerOptions",
+      "file_type": "code",
+      "source_file": "jsconfig.json",
+      "source_location": "L2",
+      "id": "jsconfig_compileroptions",
+      "community": 11,
+      "norm_label": "compileroptions"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "jsconfig.json",
+      "source_location": "L3",
+      "id": "jsconfig_compileroptions_paths",
+      "community": 11,
+      "norm_label": "paths"
+    },
+    {
+      "label": "@/*",
+      "file_type": "code",
+      "source_file": "jsconfig.json",
+      "source_location": "L4",
+      "id": "jsconfig_paths",
+      "community": 11,
+      "norm_label": "@/*"
+    },
+    {
+      "label": "middleware.js",
+      "file_type": "code",
+      "source_file": "middleware.js",
+      "source_location": "L1",
+      "id": "middleware",
+      "community": 14,
+      "norm_label": "middleware.js"
+    },
+    {
+      "label": "middleware()",
+      "file_type": "code",
+      "source_file": "middleware.js",
+      "source_location": "L8",
+      "id": "middleware_middleware",
+      "community": 14,
+      "norm_label": "middleware()"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "middleware.js",
+      "source_location": "L38",
+      "id": "middleware_config",
+      "community": 14,
+      "norm_label": "config"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1",
+      "id": "package",
+      "community": 1,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "id": "package_name",
+      "community": 1,
+      "norm_label": "name"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "id": "package_version",
+      "community": 1,
+      "norm_label": "version"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "id": "package_private",
+      "community": 1,
+      "norm_label": "private"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "id": "package_scripts",
+      "community": 3,
+      "norm_label": "scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "id": "package_scripts_dev",
+      "community": 3,
+      "norm_label": "dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "id": "package_scripts_build",
+      "community": 3,
+      "norm_label": "build"
+    },
+    {
+      "label": "start",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "id": "package_scripts_start",
+      "community": 3,
+      "norm_label": "start"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "id": "package_scripts_lint",
+      "community": 3,
+      "norm_label": "lint"
+    },
+    {
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "id": "package_scripts_test",
+      "community": 3,
+      "norm_label": "test"
+    },
+    {
+      "label": "test:watch",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "id": "package_scripts_test_watch",
+      "community": 3,
+      "norm_label": "test:watch"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "id": "package_dependencies",
+      "community": 4,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "next",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "id": "package_dependencies_next",
+      "community": 4,
+      "norm_label": "next"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "id": "package_dependencies_react",
+      "community": 4,
+      "norm_label": "react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "id": "package_dependencies_react_dom",
+      "community": 4,
+      "norm_label": "react-dom"
+    },
+    {
+      "label": "lucide-react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "id": "package_dependencies_lucide_react",
+      "community": 4,
+      "norm_label": "lucide-react"
+    },
+    {
+      "label": "framer-motion",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "id": "package_dependencies_framer_motion",
+      "community": 4,
+      "norm_label": "framer-motion"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "id": "package_devdependencies",
+      "community": 1,
+      "norm_label": "devdependencies"
+    },
+    {
+      "label": "@testing-library/jest-dom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "id": "package_devdependencies_testing_library_jest_dom",
+      "community": 1,
+      "norm_label": "@testing-library/jest-dom"
+    },
+    {
+      "label": "@testing-library/react",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "id": "package_devdependencies_testing_library_react",
+      "community": 1,
+      "norm_label": "@testing-library/react"
+    },
+    {
+      "label": "jest",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "id": "package_devdependencies_jest",
+      "community": 1,
+      "norm_label": "jest"
+    },
+    {
+      "label": "jest-environment-jsdom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "id": "package_devdependencies_jest_environment_jsdom",
+      "community": 1,
+      "norm_label": "jest-environment-jsdom"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme",
+      "community": 2,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "ROTULAB - Landing Page Premium",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_rotulab_landing_page_premium",
+      "community": 2,
+      "norm_label": "rotulab - landing page premium"
+    },
+    {
+      "label": "Descripci\u00f3n del Negocio",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L3",
+      "id": "readme_descripci\u00f3n_del_negocio",
+      "community": 2,
+      "norm_label": "descripcion del negocio"
+    },
+    {
+      "label": "Stack Tecnol\u00f3gico Empleado",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "id": "readme_stack_tecnol\u00f3gico_empleado",
+      "community": 2,
+      "norm_label": "stack tecnologico empleado"
+    },
+    {
+      "label": "Arquitectura y Estructura del Proyecto",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "id": "readme_arquitectura_y_estructura_del_proyecto",
+      "community": 2,
+      "norm_label": "arquitectura y estructura del proyecto"
+    },
+    {
+      "label": "Especificaciones del Dise\u00f1o Visual",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "id": "readme_especificaciones_del_dise\u00f1o_visual",
+      "community": 2,
+      "norm_label": "especificaciones del diseno visual"
+    },
+    {
+      "label": "Instrucciones de Instalaci\u00f3n y Levantamiento",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L62",
+      "id": "readme_instrucciones_de_instalaci\u00f3n_y_levantamiento",
+      "community": 2,
+      "norm_label": "instrucciones de instalacion y levantamiento"
+    },
+    {
+      "label": "Configuraci\u00f3n y Ejecuci\u00f3n de Pruebas (TDD)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "id": "readme_configuraci\u00f3n_y_ejecuci\u00f3n_de_pruebas_tdd",
+      "community": 2,
+      "norm_label": "configuracion y ejecucion de pruebas (tdd)"
+    },
+    {
+      "label": "Contratos de Datos e Integraci\u00f3n Din\u00e1mica",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L89",
+      "id": "readme_contratos_de_datos_e_integraci\u00f3n_din\u00e1mica",
+      "community": 2,
+      "norm_label": "contratos de datos e integracion dinamica"
+    },
+    {
+      "label": "MASTER.md",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L1",
+      "id": "rotulab_master",
+      "community": 0,
+      "norm_label": "master.md"
+    },
+    {
+      "label": "Design System Master File",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L1",
+      "id": "rotulab_master_design_system_master_file",
+      "community": 0,
+      "norm_label": "design system master file"
+    },
+    {
+      "label": "Global Rules",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L15",
+      "id": "rotulab_master_global_rules",
+      "community": 0,
+      "norm_label": "global rules"
+    },
+    {
+      "label": "Color Palette",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L17",
+      "id": "rotulab_master_color_palette",
+      "community": 0,
+      "norm_label": "color palette"
+    },
+    {
+      "label": "Typography",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L29",
+      "id": "rotulab_master_typography",
+      "community": 0,
+      "norm_label": "typography"
+    },
+    {
+      "label": "Spacing Variables",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L41",
+      "id": "rotulab_master_spacing_variables",
+      "community": 0,
+      "norm_label": "spacing variables"
+    },
+    {
+      "label": "Shadow Depths",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L53",
+      "id": "rotulab_master_shadow_depths",
+      "community": 0,
+      "norm_label": "shadow depths"
+    },
+    {
+      "label": "Component Specs",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L64",
+      "id": "rotulab_master_component_specs",
+      "community": 6,
+      "norm_label": "component specs"
+    },
+    {
+      "label": "Buttons",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L66",
+      "id": "rotulab_master_buttons",
+      "community": 6,
+      "norm_label": "buttons"
+    },
+    {
+      "label": "Cards",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L98",
+      "id": "rotulab_master_cards",
+      "community": 6,
+      "norm_label": "cards"
+    },
+    {
+      "label": "Inputs",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L116",
+      "id": "rotulab_master_inputs",
+      "community": 6,
+      "norm_label": "inputs"
+    },
+    {
+      "label": "Modals",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L134",
+      "id": "rotulab_master_modals",
+      "community": 6,
+      "norm_label": "modals"
+    },
+    {
+      "label": "Style Guidelines",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L154",
+      "id": "rotulab_master_style_guidelines",
+      "community": 0,
+      "norm_label": "style guidelines"
+    },
+    {
+      "label": "Page Pattern",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L164",
+      "id": "rotulab_master_page_pattern",
+      "community": 0,
+      "norm_label": "page pattern"
+    },
+    {
+      "label": "Anti-Patterns (Do NOT Use)",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L177",
+      "id": "rotulab_master_anti_patterns_do_not_use",
+      "community": 0,
+      "norm_label": "anti-patterns (do not use)"
+    },
+    {
+      "label": "Additional Forbidden Patterns",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L182",
+      "id": "rotulab_master_additional_forbidden_patterns",
+      "community": 0,
+      "norm_label": "additional forbidden patterns"
+    },
+    {
+      "label": "Pre-Delivery Checklist",
+      "file_type": "document",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L193",
+      "id": "rotulab_master_pre_delivery_checklist",
+      "community": 0,
+      "norm_label": "pre-delivery checklist"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/contacto/page.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "contacto_page",
+      "target": "contacto_page_contactopage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/contacto/page.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "contacto_page",
+      "target": "contacto_page_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.js",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "app_layout",
+      "target": "app_layout_inter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "app_layout",
+      "target": "app_layout_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.js",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_layout",
+      "target": "app_layout_montserrat",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "app_layout",
+      "target": "app_layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/nosotros/page.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "nosotros_page",
+      "target": "nosotros_page_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/nosotros/page.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "nosotros_page",
+      "target": "nosotros_page_nosotrospage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/page.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_page",
+      "target": "app_page_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/portafolio/page.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "portafolio_page",
+      "target": "portafolio_page_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/portafolio/page.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "portafolio_page",
+      "target": "portafolio_page_portafoliopage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/servicios/page.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "servicios_page",
+      "target": "servicios_page_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/servicios/page.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "servicios_page",
+      "target": "servicios_page_serviciospage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/About.jsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "components_about",
+      "target": "components_about_about",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/About.jsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "components_about",
+      "target": "components_about_tiktokicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Contact.jsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "components_contact",
+      "target": "components_contact_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Footer.jsx",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "components_footer",
+      "target": "components_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Footer.jsx",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "components_footer",
+      "target": "components_footer_getsocialicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Footer.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "components_footer",
+      "target": "components_footer_tiktokicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Hero.jsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "components_hero",
+      "target": "components_hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Navbar.jsx",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "components_navbar",
+      "target": "components_navbar_navbar",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Portfolio.jsx",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "components_portfolio",
+      "target": "components_portfolio_brand_logos",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Portfolio.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "components_portfolio",
+      "target": "components_portfolio_categories",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Portfolio.jsx",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "components_portfolio",
+      "target": "components_portfolio_portfolio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Services.jsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "components_services",
+      "target": "components_services_geticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Services.jsx",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "components_services",
+      "target": "components_services_getneoncolors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Services.jsx",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "components_services",
+      "target": "components_services_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Services.jsx",
+      "source_location": "L162",
+      "weight": 1.0,
+      "source": "components_services_services",
+      "target": "components_services_geticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Services.jsx",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "components_services_services",
+      "target": "components_services_getneoncolors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config/business.js",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "config_business",
+      "target": "config_business_businessconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config/portfolio.js",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "config_portfolio",
+      "target": "config_portfolio_portfolio_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "config/services.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "config_services",
+      "target": "config_services_services_data",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "jest.config.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "jest_config",
+      "target": "jest_config_createjestconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "jest.config.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "jest_config",
+      "target": "jest_config_customjestconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "jest.config.js",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "jest_config",
+      "target": "jest_config_nextjest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "jsconfig.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "jsconfig",
+      "target": "jsconfig_compileroptions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "jsconfig.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "jsconfig_compileroptions",
+      "target": "jsconfig_compileroptions_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "jsconfig.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "jsconfig_compileroptions_paths",
+      "target": "jsconfig_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "middleware",
+      "target": "middleware_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "middleware.js",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "middleware",
+      "target": "middleware_middleware",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_devdependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_private",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "package",
+      "target": "package_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_dev",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_lint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "package_scripts",
+      "target": "package_scripts_test_watch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_framer_motion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_lucide_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_next",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "package_dependencies",
+      "target": "package_dependencies_react_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_jest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_jest_environment_jsdom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_testing_library_jest_dom",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "package_devdependencies",
+      "target": "package_devdependencies_testing_library_react",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_rotulab_landing_page_premium",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "readme_rotulab_landing_page_premium",
+      "target": "readme_arquitectura_y_estructura_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "readme_rotulab_landing_page_premium",
+      "target": "readme_configuraci\u00f3n_y_ejecuci\u00f3n_de_pruebas_tdd",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "readme_rotulab_landing_page_premium",
+      "target": "readme_contratos_de_datos_e_integraci\u00f3n_din\u00e1mica",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "readme_rotulab_landing_page_premium",
+      "target": "readme_descripci\u00f3n_del_negocio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "readme_rotulab_landing_page_premium",
+      "target": "readme_especificaciones_del_dise\u00f1o_visual",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "readme_rotulab_landing_page_premium",
+      "target": "readme_instrucciones_de_instalaci\u00f3n_y_levantamiento",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "readme_rotulab_landing_page_premium",
+      "target": "readme_stack_tecnol\u00f3gico_empleado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "rotulab_master",
+      "target": "rotulab_master_design_system_master_file",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "rotulab_master_design_system_master_file",
+      "target": "rotulab_master_anti_patterns_do_not_use",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "rotulab_master_design_system_master_file",
+      "target": "rotulab_master_component_specs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "rotulab_master_design_system_master_file",
+      "target": "rotulab_master_global_rules",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L193",
+      "weight": 1.0,
+      "source": "rotulab_master_design_system_master_file",
+      "target": "rotulab_master_pre_delivery_checklist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "rotulab_master_design_system_master_file",
+      "target": "rotulab_master_style_guidelines",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "rotulab_master_global_rules",
+      "target": "rotulab_master_color_palette",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "rotulab_master_global_rules",
+      "target": "rotulab_master_shadow_depths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "rotulab_master_global_rules",
+      "target": "rotulab_master_spacing_variables",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "rotulab_master_global_rules",
+      "target": "rotulab_master_typography",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "source": "rotulab_master_component_specs",
+      "target": "rotulab_master_buttons",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "rotulab_master_component_specs",
+      "target": "rotulab_master_cards",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "rotulab_master_component_specs",
+      "target": "rotulab_master_inputs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "rotulab_master_component_specs",
+      "target": "rotulab_master_modals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "rotulab_master_style_guidelines",
+      "target": "rotulab_master_page_pattern",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "design-system/rotulab/MASTER.md",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "rotulab_master_anti_patterns_do_not_use",
+      "target": "rotulab_master_additional_forbidden_patterns",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "81a8d01a73bbc4c29b920475aad6c65943e5cdb6"
+}

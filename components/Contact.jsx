@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send, Phone, Mail, MapPin } from 'lucide-react';
+import { businessConfig } from '@/config/business';
 import styles from './Contact.module.css';
 
 export default function Contact() {
@@ -50,12 +51,12 @@ export default function Contact() {
     e.preventDefault();
     
     if (validate()) {
-      const phoneNumber = '50588888888';
+      const whatsappUrl = new URL(businessConfig.contact.whatsapp);
       const textMessage = `Hola Rotulab, mi nombre es ${formData.name}. Email: ${formData.email}. Mensaje: ${formData.message}`;
       const encodedText = encodeURIComponent(textMessage);
-      const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedText}`;
+      const targetUrl = `${whatsappUrl.href}?text=${encodedText}`;
       
-      window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+      window.open(targetUrl, '_blank', 'noopener,noreferrer');
     }
   };
 
@@ -92,7 +93,7 @@ export default function Contact() {
               </div>
               <div className={styles.infoDetail}>
                 <span className={styles.infoLabel}>WhatsApp / Teléfono</span>
-                <span className={styles.infoValue}>+505 8888-8888</span>
+                <span className={styles.infoValue}>{businessConfig.contact.phone}</span>
               </div>
             </div>
 
@@ -102,7 +103,7 @@ export default function Contact() {
               </div>
               <div className={styles.infoDetail}>
                 <span className={styles.infoLabel}>Correo Electrónico</span>
-                <span className={styles.infoValue}>info@rotulab.com</span>
+                <span className={styles.infoValue}>{businessConfig.contact.email}</span>
               </div>
             </div>
 
@@ -112,7 +113,7 @@ export default function Contact() {
               </div>
               <div className={styles.infoDetail}>
                 <span className={styles.infoLabel}>Ubicación</span>
-                <span className={styles.infoValue}>Managua, Nicaragua</span>
+                <span className={styles.infoValue}>{businessConfig.contact.address}</span>
               </div>
             </div>
           </div>

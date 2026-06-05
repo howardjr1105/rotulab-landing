@@ -1,25 +1,32 @@
 /* Estilos globales y variables de diseño para ROTULAB */
 :root {
-  /* Paleta de colores - Dark Mode Premium por defecto */
-  --bg-dark-primary: #07090e;
-  --bg-dark-secondary: #0f131a;
-  --bg-card-dark: rgba(18, 24, 38, 0.6);
-  --border-card-dark: rgba(255, 255, 255, 0.08);
+  /* Paleta de colores de Marca - Negro Absoluto como fondo, Rojo de Marca y Blanco */
+  --color-brand-red: #e30613;          /* Rojo oficial de ROTULAB */
+  --color-brand-red-glow: rgba(227, 6, 19, 0.2);
+  --color-brand-white: #ffffff;        /* Blanco absoluto */
+  --color-brand-white-glow: rgba(255, 255, 255, 0.1);
+  --color-brand-black: #000000;        /* Negro absoluto */
 
-  /* Acentos de luz neón */
-  --color-cyan-neon: #00f0ff;
-  --color-cyan-glow: rgba(0, 240, 255, 0.15);
-  --color-orange-neon: #ff6a00;
-  --color-orange-glow: rgba(255, 106, 0, 0.15);
+  /* Estructura de fondos */
+  --bg-dark-primary: var(--color-brand-black);
+  --bg-dark-secondary: #0a0a0a;        /* Negro secundario profundo */
+  --bg-card-dark: rgba(15, 15, 15, 0.7);
+  --border-card-dark: rgba(255, 255, 255, 0.06);
 
-  /* Mapeo de variables abreviadas para compatibilidad con módulos */
-  --neon-cyan: var(--color-cyan-neon);
-  --neon-orange: var(--color-orange-neon);
+  /* Acentos y compatibilidad con variables antiguas */
+  --color-cyan-neon: var(--color-brand-red);
+  --color-cyan-glow: var(--color-brand-red-glow);
+  --color-orange-neon: var(--color-brand-white);
+  --color-orange-glow: var(--color-brand-white-glow);
+
+  /* Mapeo de variables para compatibilidad con módulos */
+  --neon-cyan: var(--color-brand-red);
+  --neon-orange: var(--color-brand-white);
 
   /* Texto */
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #8a99ad;
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+  --text-muted: #737373;
 
   /* Fuentes (inyectadas por layout.js como variables CSS) */
   --font-title: var(--font-title, 'Montserrat', sans-serif);
@@ -67,8 +74,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .glass-panel-hover:hover {
-  background: rgba(24, 32, 51, 0.8);
-  border-color: rgba(0, 240, 255, 0.3);
+  background: rgba(15, 15, 15, 0.95);
+  border-color: rgba(227, 6, 19, 0.3);
   box-shadow: 0 10px 30px -10px var(--color-cyan-glow);
   transform: translateY(-4px);
 }
@@ -99,14 +106,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .glow-btn-cyan:hover {
   background: var(--color-cyan-neon);
-  color: var(--bg-dark-primary);
+  color: var(--color-brand-black);
   box-shadow: 0 0 20px var(--color-cyan-neon);
 }
 
 .glow-btn-orange {
   position: relative;
   background: var(--color-orange-neon);
-  color: var(--text-primary);
+  color: var(--color-brand-black);
   border: none;
   padding: 12px 24px;
   font-weight: 600;
@@ -117,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .glow-btn-orange:hover {
-  background: #ff7d22;
+  background: #e5e5e5;
   box-shadow: 0 0 25px var(--color-orange-neon);
   transform: translateY(-2px);
 }

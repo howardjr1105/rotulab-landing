@@ -49,7 +49,7 @@ import Footer from '@/components/Footer';
 export default function RootLayout({ children }) {
   return (
     <html lang="es" className={`${montserrat.variable} ${inter.variable}`}>
-      <body className="antialiased selection:bg-cyan-500/30 selection:text-cyan-200">
+      <body className="antialiased selection:bg-[#e30613] selection:text-white">
         <Navbar />
         {children}
         <Footer />

@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: rgba(7, 9, 14, 0.75);
+  background-color: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   transition: all 0.3s ease;
@@ -12,8 +12,8 @@
 
 .navbarScrolled {
   background-color: rgba(5, 5, 5, 0.9);
-  border-bottom: 1px solid rgba(0, 240, 255, 0.15);
-  box-shadow: 0 4px 30px rgba(0, 240, 255, 0.03);
+  border-bottom: 1px solid rgba(227, 6, 19, 0.15);
+  box-shadow: 0 4px 30px rgba(227, 6, 19, 0.03);
 }
 
 .container {
@@ -35,7 +35,7 @@
 
 .logoImage {
   border-radius: 4px;
-  filter: drop-shadow(0 0 4px rgba(0, 240, 255, 0.4));
+  filter: drop-shadow(0 0 4px rgba(227, 6, 19, 0.4));
   transition: transform 0.3s ease;
 }
 
@@ -57,7 +57,7 @@
 
 .logoTextSpan {
   color: var(--neon-cyan);
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  text-shadow: 0 0 10px rgba(227, 6, 19, 0.5);
   -webkit-text-fill-color: var(--neon-cyan);
 }
 
@@ -123,9 +123,9 @@
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: rgba(7, 9, 14, 0.95);
+  background-color: rgba(0, 0, 0, 0.95);
   backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(0, 240, 255, 0.1);
+  border-bottom: 1px solid rgba(227, 6, 19, 0.1);
   padding: 1.5rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
@@ -170,3 +170,19 @@
     justify-content: center;
   }
 }
+
+.navLinkActive {
+  color: #ffffff !important;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.navLinkActive::after {
+  width: 100% !important;
+}
+
+.mobileNavLinkActive {
+  color: var(--neon-cyan) !important;
+  font-weight: 700;
+  padding-left: 0.5rem;
+}
+

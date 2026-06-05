@@ -1,6 +1,6 @@
 .contact {
   padding: 8rem 1.5rem;
-  background-color: #07090e;
+  background-color: var(--bg-dark-primary);
   position: relative;
 }
 
@@ -81,13 +81,13 @@
   width: 48px;
   height: 48px;
   border-radius: 10px;
-  background-color: rgba(0, 240, 255, 0.08);
+  background-color: rgba(227, 6, 19, 0.08);
   color: var(--neon-cyan);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  box-shadow: 0 0 10px rgba(0, 240, 255, 0.15);
+  box-shadow: 0 0 10px rgba(227, 6, 19, 0.15);
 }
 
 .infoDetail {
@@ -111,7 +111,7 @@
 
 /* Tarjeta de Formulario */
 .formCard {
-  background: rgba(18, 24, 38, 0.5);
+  background: var(--bg-card-dark);
   border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 20px;
   padding: 3rem 2rem;
@@ -159,7 +159,7 @@
 
 .input,
 .textarea {
-  background-color: rgba(7, 9, 14, 0.6);
+  background-color: rgba(15, 15, 15, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   color: #ffffff;
@@ -178,7 +178,7 @@
 .textarea:focus {
   outline: none;
   border-color: var(--neon-cyan);
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.15);
+  box-shadow: 0 0 15px rgba(227, 6, 19, 0.15);
   background-color: rgba(5, 5, 5, 0.8);
 }
 
@@ -200,7 +200,7 @@
 
 .btnSubmit {
   background-color: var(--neon-orange);
-  color: #ffffff;
+  color: #000000;
   border: none;
   padding: 1.1rem;
   border-radius: 8px;
@@ -213,12 +213,12 @@
   justify-content: center;
   gap: 0.75rem;
   margin-top: 1rem;
-  box-shadow: 0 0 20px rgba(255, 90, 0, 0.2);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
 
 .btnSubmit:hover {
-  background-color: #ffffff;
-  color: #050505;
-  box-shadow: 0 0 30px rgba(255, 90, 0, 0.5);
+  background-color: var(--color-brand-red);
+  color: #ffffff;
+  box-shadow: 0 0 30px rgba(227, 6, 19, 0.4);
   transform: translateY(-2px);
 }
