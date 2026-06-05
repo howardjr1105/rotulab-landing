@@ -1,0 +1,197 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  padding: 8rem 1.5rem 4rem;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 240, 255, 0.05) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(255, 90, 0, 0.03) 0%, transparent 40%),
+              #07090e;
+}
+
+/* Cuadrícula tecnológica de fondo */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 50px 50px;
+  background-position: center;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.content {
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge {
+  background: rgba(0, 240, 255, 0.1);
+  border: 1px solid rgba(0, 240, 255, 0.2);
+  color: var(--neon-cyan);
+  padding: 0.5rem 1.25rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
+  animation: pulse 2s infinite alternate;
+}
+
+.title {
+  font-family: var(--font-title);
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, #ffffff 30%, #a0a0aa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.titleHighlight {
+  background: linear-gradient(90deg, var(--neon-cyan), var(--neon-orange));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  margin-top: 0.5rem;
+  text-shadow: 0 0 40px rgba(0, 240, 255, 0.15);
+}
+
+.subtitle {
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  color: #a0a0aa;
+  max-width: 650px;
+  line-height: 1.6;
+  margin-bottom: 3rem;
+}
+
+.subtitleHighlight {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.ctaContainer {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 1rem 2.25rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btnCyan {
+  background-color: var(--neon-cyan);
+  color: #050505;
+  box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+}
+
+.btnCyan:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 30px rgba(0, 240, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+.btnOutline {
+  background-color: rgba(255, 255, 255, 0.03);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.btnOutline:hover {
+  background-color: rgba(255, 90, 0, 0.1);
+  border-color: var(--neon-orange);
+  box-shadow: 0 0 25px rgba(255, 90, 0, 0.3);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Efectos visuales neón difusos en las esquinas */
+.neonBlob {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.blobCyan {
+  background-color: var(--neon-cyan);
+  top: -100px;
+  left: -100px;
+}
+
+.blobOrange {
+  background-color: var(--neon-orange);
+  bottom: -100px;
+  right: -100px;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.1);
+    border-color: rgba(0, 240, 255, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 25px rgba(0, 240, 255, 0.3);
+    border-color: rgba(0, 240, 255, 0.5);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@media (max-width: 640px) {
+  .ctaContainer {
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+  }
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

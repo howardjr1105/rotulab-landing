@@ -1,0 +1,152 @@
+/* Estilos globales y variables de diseño para ROTULAB */
+:root {
+  /* Paleta de colores - Dark Mode Premium por defecto */
+  --bg-dark-primary: #07090e;
+  --bg-dark-secondary: #0f131a;
+  --bg-card-dark: rgba(18, 24, 38, 0.6);
+  --border-card-dark: rgba(255, 255, 255, 0.08);
+
+  /* Acentos de luz neón */
+  --color-cyan-neon: #00f0ff;
+  --color-cyan-glow: rgba(0, 240, 255, 0.15);
+  --color-orange-neon: #ff6a00;
+  --color-orange-glow: rgba(255, 106, 0, 0.15);
+
+  /* Mapeo de variables abreviadas para compatibilidad con módulos */
+  --neon-cyan: var(--color-cyan-neon);
+  --neon-orange: var(--color-orange-neon);
+
+  /* Texto */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #8a99ad;
+
+  /* Fuentes (inyectadas por layout.js como variables CSS) */
+  --font-title: var(--font-title, 'Montserrat', sans-serif);
+  --font-body: var(--font-body, 'Inter', sans-serif);
+
+  /* Transiciones */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Reset y estilos base */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: var(--bg-dark-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-title);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* Efectos de Glassmorphism */
+.glass-panel {
+  background: var(--bg-card-dark);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-card-dark);
+  border-radius: 16px;
+}
+
+.glass-panel-hover {
+  transition: all var(--transition-normal);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(24, 32, 51, 0.8);
+  border-color: rgba(0, 240, 255, 0.3);
+  box-shadow: 0 10px 30px -10px var(--color-cyan-glow);
+  transform: translateY(-4px);
+}
+
+/* Acentos y brillos neón */
+.text-neon-cyan {
+  color: var(--color-cyan-neon);
+  text-shadow: 0 0 10px var(--color-cyan-glow);
+}
+
+.text-neon-orange {
+  color: var(--color-orange-neon);
+  text-shadow: 0 0 10px var(--color-orange-glow);
+}
+
+.glow-btn-cyan {
+  position: relative;
+  background: transparent;
+  color: var(--color-cyan-neon);
+  border: 1px solid var(--color-cyan-neon);
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all var(--transition-fast);
+}
+
+.glow-btn-cyan:hover {
+  background: var(--color-cyan-neon);
+  color: var(--bg-dark-primary);
+  box-shadow: 0 0 20px var(--color-cyan-neon);
+}
+
+.glow-btn-orange {
+  position: relative;
+  background: var(--color-orange-neon);
+  color: var(--text-primary);
+  border: none;
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  box-shadow: 0 4px 15px var(--color-orange-glow);
+}
+
+.glow-btn-orange:hover {
+  background: #ff7d22;
+  box-shadow: 0 0 25px var(--color-orange-neon);
+  transform: translateY(-2px);
+}
+
+/* Gradientes de fondo tipo nebulosa */
+.neon-nebula-cyan {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: var(--color-cyan-neon);
+  filter: blur(150px);
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.neon-nebula-orange {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: var(--color-orange-neon);
+  filter: blur(150px);
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+/* Utilidades adicionales */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}

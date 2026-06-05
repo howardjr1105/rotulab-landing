@@ -1,0 +1,224 @@
+.contact {
+  padding: 8rem 1.5rem;
+  background-color: #07090e;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.subtitle {
+  color: var(--neon-orange);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.title {
+  font-family: var(--font-title);
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+@media (min-width: 992px) {
+  .grid {
+    grid-template-columns: 1fr 1.2fr;
+  }
+}
+
+/* Información lateral */
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.infoTitle {
+  font-family: var(--font-title);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.infoText {
+  color: #a0a0aa;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.infoCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.infoIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  background-color: rgba(0, 240, 255, 0.08);
+  color: var(--neon-cyan);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.15);
+}
+
+.infoDetail {
+  display: flex;
+  flex-direction: column;
+}
+
+.infoLabel {
+  font-size: 0.8rem;
+  color: #a0a0aa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+.infoValue {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Tarjeta de Formulario */
+.formCard {
+  background: rgba(18, 24, 38, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 576px) {
+  .formCard {
+    padding: 2rem 1.25rem;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.02em;
+}
+
+.input,
+.textarea {
+  background-color: rgba(7, 9, 14, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 0.9rem 1.2rem;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 130px;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: none;
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.15);
+  background-color: rgba(5, 5, 5, 0.8);
+}
+
+.inputError {
+  border-color: rgba(255, 0, 0, 0.4);
+}
+
+.inputError:focus {
+  border-color: #ff3b30;
+  box-shadow: 0 0 15px rgba(255, 59, 48, 0.2);
+}
+
+.errorText {
+  color: #ff3b30;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
+.btnSubmit {
+  background-color: var(--neon-orange);
+  color: #ffffff;
+  border: none;
+  padding: 1.1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  box-shadow: 0 0 20px rgba(255, 90, 0, 0.2);
+}
+
+.btnSubmit:hover {
+  background-color: #ffffff;
+  color: #050505;
+  box-shadow: 0 0 30px rgba(255, 90, 0, 0.5);
+  transform: translateY(-2px);
+}
