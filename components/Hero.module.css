@@ -54,6 +54,13 @@
   animation: pulse 2s infinite alternate;
 }
 
+.heroLogo {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .title {
   font-family: var(--font-title);
   font-size: clamp(3rem, 8vw, 6rem);
