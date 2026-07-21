@@ -4,13 +4,13 @@
  */
 export const businessConfig = {
   name: 'ROTULAB',
-  legalName: 'ROTULAB S.A.',
-  tagline: 'Innovación en publicidad, rotulación y fabricación digital de alta precisión. Materializamos tus ideas.',
-  description: 'Llevamos tus ideas al plano físico con la máxima precisión tecnológica.',
+  legalName: 'ROTULAB LLC',
+  tagline: 'Somos especialistas en imagen comercial y publicidad visual para tiendas y empresas.',
+  description: 'Convertimos fachadas y vitrinas en herramientas de venta.',
   contact: {
     phone: '+1 (828) 636-8793',
     whatsapp: 'https://wa.me/18286368793',
-    email: 'info@rotulab.com',
+    email: 'roulan628@gmail.com',
     address: 'Asheville, Carolina del Norte, USA',
     schedule: 'Lunes a Viernes: 8:00 AM - 5:00 PM | Sábados: 8:00 AM - 12:00 PM',
   },

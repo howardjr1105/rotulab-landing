@@ -1,0 +1,135 @@
+- generic [active] [ref=f1e1]:
+  - navigation [ref=f1e2]:
+    - generic [ref=f1e3]:
+      - link "Logo de Rotulab ROTULAB" [ref=f1e4] [cursor=pointer]:
+        - /url: /
+        - img "Logo de Rotulab" [ref=f1e5]
+        - generic [ref=f1e6]: ROTULAB
+      - list [ref=f1e7]:
+        - listitem [ref=f1e8]:
+          - link "Inicio" [ref=f1e9] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f1e10]:
+          - link "Nosotros" [ref=f1e11] [cursor=pointer]:
+            - /url: /nosotros
+        - listitem [ref=f1e12]:
+          - link "Servicios" [ref=f1e13] [cursor=pointer]:
+            - /url: /servicios
+        - listitem [ref=f1e14]:
+          - link "Portafolio" [ref=f1e15] [cursor=pointer]:
+            - /url: /portafolio
+        - listitem [ref=f1e16]:
+          - link "Contacto" [ref=f1e17] [cursor=pointer]:
+            - /url: /contacto
+  - main [ref=f1e18]:
+    - generic [ref=f1e20]:
+      - generic [ref=f1e21]:
+        - generic [ref=f1e22]: Casos De Éxito
+        - heading "Portafolio de Trabajos" [level=2] [ref=f1e23]
+      - generic [ref=f1e24]:
+        - button "Todos" [pressed] [ref=f1e25] [cursor=pointer]
+        - button "Diseño" [ref=f1e26] [cursor=pointer]
+        - button "Fabricación 3D" [ref=f1e27] [cursor=pointer]
+        - button "NFC" [ref=f1e28] [cursor=pointer]
+        - button "DTF" [ref=f1e29] [cursor=pointer]
+        - button "Rotulación" [ref=f1e30] [cursor=pointer]
+        - button "Audiovisual" [ref=f1e31] [cursor=pointer]
+      - generic [ref=f1e32]:
+        - article [ref=f1e33]:
+          - img "Camisetas Corporativas Premium" [ref=f1e35]
+          - generic [ref=f1e36]:
+            - heading "Camisetas Corporativas Premium" [level=3] [ref=f1e37]
+            - paragraph [ref=f1e38]: Impresión DTF de alta definición con tintas ecológicas sobre camisetas de algodón orgánico negro.
+            - generic [ref=f1e39]:
+              - generic [ref=f1e40]: TechHub Nicaragua
+              - generic [ref=f1e41]: "2025"
+        - article [ref=f1e42]:
+          - img "Llaveros NFC Personalizados con Logotipo" [ref=f1e44]
+          - generic [ref=f1e45]:
+            - heading "Llaveros NFC Personalizados con Logotipo" [level=3] [ref=f1e46]
+            - paragraph [ref=f1e47]: Fabricación de llaveros de madera y acrílico grabados con láser con chip NFC programable integrado.
+            - generic [ref=f1e48]:
+              - generic [ref=f1e49]: Café Estelar
+              - generic [ref=f1e50]: "2026"
+        - article [ref=f1e51]:
+          - img "Modelado y Prototipado 3D de Engranajes" [ref=f1e53]
+          - generic [ref=f1e54]:
+            - heading "Modelado y Prototipado 3D de Engranajes" [level=3] [ref=f1e55]
+            - paragraph [ref=f1e56]: Modelado e impresión 3D de precisión de engranajes mecánicos en filamento de ingeniería de alta resistencia.
+            - generic [ref=f1e57]:
+              - generic [ref=f1e58]: Taller Industrial Maquinarias
+              - generic [ref=f1e59]: "2025"
+        - article [ref=f1e60]:
+          - img "Rotulación Vehicular de Camioneta Comercial" [ref=f1e62]
+          - generic [ref=f1e63]:
+            - heading "Rotulación Vehicular de Camioneta Comercial" [level=3] [ref=f1e64]
+            - paragraph [ref=f1e65]: Diseño y aplicación de vinil adhesivo de alta performance para flota vehicular de distribución.
+            - generic [ref=f1e66]:
+              - generic [ref=f1e67]: Distribuidora El Sol
+              - generic [ref=f1e68]: "2026"
+        - article [ref=f1e69]:
+          - img "Letreros y Publicidad en Vinil Adhesivo" [ref=f1e71]
+          - generic [ref=f1e72]:
+            - heading "Letreros y Publicidad en Vinil Adhesivo" [level=3] [ref=f1e73]
+            - paragraph [ref=f1e74]: Producción e instalación de vinilos decorativos y publicitarios para vitrinas de tienda comercial comercial.
+            - generic [ref=f1e75]:
+              - generic [ref=f1e76]: Boutique Glamour
+              - generic [ref=f1e77]: "2026"
+        - article [ref=f1e78]:
+          - img "Producción Audiovisual y Cobertura de Marca" [ref=f1e80]
+          - generic [ref=f1e81]:
+            - heading "Producción Audiovisual y Cobertura de Marca" [level=3] [ref=f1e82]
+            - paragraph [ref=f1e83]: Video promocional de alta definición y cobertura del proceso de fabricación para redes sociales.
+            - generic [ref=f1e84]:
+              - generic [ref=f1e85]: ROTULAB Interno
+              - generic [ref=f1e86]: "2025"
+  - contentinfo [ref=f1e87]:
+    - generic [ref=f1e88]:
+      - generic [ref=f1e89]:
+        - link "Logo de Rotulab ROTULAB" [ref=f1e90] [cursor=pointer]:
+          - /url: /
+          - img "Logo de Rotulab" [ref=f1e91]
+          - generic [ref=f1e92]: ROTULAB
+        - paragraph [ref=f1e93]: Somos especialistas en imagen comercial y publicidad visual para tiendas y empresas.
+      - generic [ref=f1e94]:
+        - heading "Navegación" [level=4] [ref=f1e95]
+        - list [ref=f1e96]:
+          - listitem [ref=f1e97]:
+            - link "Inicio" [ref=f1e98] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f1e99]:
+            - link "Nosotros" [ref=f1e100] [cursor=pointer]:
+              - /url: /nosotros
+          - listitem [ref=f1e101]:
+            - link "Servicios" [ref=f1e102] [cursor=pointer]:
+              - /url: /servicios
+          - listitem [ref=f1e103]:
+            - link "Portafolio" [ref=f1e104] [cursor=pointer]:
+              - /url: /portafolio
+          - listitem [ref=f1e105]:
+            - link "Contacto" [ref=f1e106] [cursor=pointer]:
+              - /url: /contacto
+      - generic [ref=f1e107]:
+        - heading "Contacto" [level=4] [ref=f1e108]
+        - list [ref=f1e109]:
+          - listitem [ref=f1e110]:
+            - generic [ref=f1e113]: +1 (828) 636-8793
+          - listitem [ref=f1e114]:
+            - link "roulan628@gmail.com" [ref=f1e118] [cursor=pointer]:
+              - /url: mailto:roulan628@gmail.com
+          - listitem [ref=f1e119]:
+            - generic [ref=f1e123]: Asheville, Carolina del Norte, USA
+      - generic [ref=f1e124]:
+        - heading "Redes Sociales" [level=4] [ref=f1e125]
+        - generic [ref=f1e126]:
+          - link "Facebook de Rotulab" [ref=f1e127] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61585802559341
+          - link "Instagram de Rotulab" [ref=f1e130] [cursor=pointer]:
+            - /url: https://www.instagram.com/rotu.lab
+          - link "Whatsapp de Rotulab" [ref=f1e134] [cursor=pointer]:
+            - /url: https://wa.me/18286368793
+          - link "TikTok de Rotulab" [ref=f1e137] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@rotulab6?_r=1&_t=ZT-96v7ldQJ
+    - generic [ref=f1e140]:
+      - generic [ref=f1e141]: © 2026 ROTULAB LLC. Todos los derechos reservados.
+      - generic [ref=f1e142]: Diseño e Innovación Digital

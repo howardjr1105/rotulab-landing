@@ -1,0 +1,86 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "Logo de Rotulab ROTULAB" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Logo de Rotulab" [ref=e5]
+        - generic [ref=e6]: ROTULAB
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Inicio" [ref=e9] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e10]:
+          - link "Nosotros" [ref=e11] [cursor=pointer]:
+            - /url: /nosotros
+        - listitem [ref=e12]:
+          - link "Servicios" [ref=e13] [cursor=pointer]:
+            - /url: /servicios
+        - listitem [ref=e14]:
+          - link "Portafolio" [ref=e15] [cursor=pointer]:
+            - /url: /portafolio
+        - listitem [ref=e16]:
+          - link "Contacto" [ref=e17] [cursor=pointer]:
+            - /url: /contacto
+  - main [ref=e18]:
+    - generic [ref=e20]:
+      - generic [ref=e21]: Fabricación Digital de Vanguardia
+      - heading "ROTULAB Innovación en Publicidad" [level=1] [ref=e22]:
+        - text: ROTULAB
+        - generic [ref=e23]: Innovación en Publicidad
+      - paragraph [ref=e24]: Somos especialistas en imagen comercial y publicidad visual para tiendas y empresas. Convertimos fachadas y vitrinas en herramientas de venta.
+      - generic [ref=e25]:
+        - link "Ver Servicios" [ref=e26] [cursor=pointer]:
+          - /url: /servicios
+        - link "Contáctanos" [ref=e29] [cursor=pointer]:
+          - /url: /contacto
+  - contentinfo [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - link "Logo de Rotulab ROTULAB" [ref=e35] [cursor=pointer]:
+          - /url: /
+          - img "Logo de Rotulab" [ref=e36]
+          - generic [ref=e37]: ROTULAB
+        - paragraph [ref=e38]: Somos especialistas en imagen comercial y publicidad visual para tiendas y empresas.
+      - generic [ref=e39]:
+        - heading "Navegación" [level=4] [ref=e40]
+        - list [ref=e41]:
+          - listitem [ref=e42]:
+            - link "Inicio" [ref=e43] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e44]:
+            - link "Nosotros" [ref=e45] [cursor=pointer]:
+              - /url: /nosotros
+          - listitem [ref=e46]:
+            - link "Servicios" [ref=e47] [cursor=pointer]:
+              - /url: /servicios
+          - listitem [ref=e48]:
+            - link "Portafolio" [ref=e49] [cursor=pointer]:
+              - /url: /portafolio
+          - listitem [ref=e50]:
+            - link "Contacto" [ref=e51] [cursor=pointer]:
+              - /url: /contacto
+      - generic [ref=e52]:
+        - heading "Contacto" [level=4] [ref=e53]
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - generic [ref=e58]: +1 (828) 636-8793
+          - listitem [ref=e59]:
+            - link "roulan628@gmail.com" [ref=e63] [cursor=pointer]:
+              - /url: mailto:roulan628@gmail.com
+          - listitem [ref=e64]:
+            - generic [ref=e68]: Asheville, Carolina del Norte, USA
+      - generic [ref=e69]:
+        - heading "Redes Sociales" [level=4] [ref=e70]
+        - generic [ref=e71]:
+          - link "Facebook de Rotulab" [ref=e72] [cursor=pointer]:
+            - /url: https://www.facebook.com/profile.php?id=61585802559341
+          - link "Instagram de Rotulab" [ref=e75] [cursor=pointer]:
+            - /url: https://www.instagram.com/rotu.lab
+          - link "Whatsapp de Rotulab" [ref=e79] [cursor=pointer]:
+            - /url: https://wa.me/18286368793
+          - link "TikTok de Rotulab" [ref=e82] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@rotulab6?_r=1&_t=ZT-96v7ldQJ
+    - generic [ref=e85]:
+      - generic [ref=e86]: © 2026 ROTULAB LLC. Todos los derechos reservados.
+      - generic [ref=e87]: Diseño e Innovación Digital
+  - alert [ref=e88]

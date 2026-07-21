@@ -18,7 +18,7 @@
 
 @media (min-width: 768px) {
   .container {
-    grid-template-columns: 1.5fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
   }
 }
 
@@ -137,3 +137,36 @@
 .copyright {
   font-size: 0.875rem;
 }
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  color: #a0a0aa;
+}
+
+.contactIcon {
+  color: var(--neon-cyan);
+  flex-shrink: 0;
+}
+
+.contactLink {
+  color: #a0a0aa;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contactLink:hover {
+  color: var(--neon-cyan);
+}
+

@@ -1,0 +1,137 @@
+- generic [ref=e1]:
+  - generic [ref=e8]:
+    - generic [ref=e10]:
+      - link [ref=e13] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e21]:
+        - link [ref=e23] [cursor=pointer]:
+          - /url: /accounts/login/?next=%2Frotu.lab%2F&source=desktop_nav
+          - text: Iniciar sesión
+        - link [ref=e25] [cursor=pointer]:
+          - /url: /accounts/emailsignup/
+          - text: Registrarte
+    - main [ref=e26]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - button [ref=e32] [cursor=pointer]:
+            - link [ref=e34]
+          - heading [level=2] [ref=e42]:
+            - generic [ref=e43]: rotu.lab
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link [ref=e48] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e49]:
+                  - generic [ref=e50]: "27"
+                  - text: seguidores
+            - listitem [ref=e51]:
+              - link [ref=e53] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=e54]:
+                  - generic [ref=e55]: "5"
+                  - text: seguidos
+          - generic [ref=e57]:
+            - generic [ref=e58]: ROTULAB
+            - generic [ref=e60]:
+              - button [ref=e61] [cursor=pointer]: Somos especialistas en imagen comercial y publicidad visual para tiendas y empresas Convertimos fachadas y vitrinas en
+              - generic [ref=e62]:
+                - text: ...
+                - button [ref=e63] [cursor=pointer]:
+                  - generic [ref=e64]: más
+        - tablist [ref=e66]:
+          - link [ref=e68] [cursor=pointer]:
+            - /url: /rotu.lab/
+          - link [ref=e81] [cursor=pointer]:
+            - /url: "#"
+          - link [ref=e86] [cursor=pointer]:
+            - /url: "#"
+        - generic [ref=e92]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - link [ref=e98] [cursor=pointer]:
+                - /url: /rotu.lab/reel/DalCuiJhXmx/
+              - link [ref=e104] [cursor=pointer]:
+                - /url: /rotu.lab/reel/DZHDAjNhbtk/
+              - link [ref=e110] [cursor=pointer]:
+                - /url: /rotu.lab/reel/DZGRTPBhnDk/
+            - generic [ref=e115]:
+              - link [ref=e117] [cursor=pointer]:
+                - /url: /rotu.lab/reel/DZFsZBABRwZ/
+              - link [ref=e123] [cursor=pointer]:
+                - /url: /rotu.lab/reel/DYEH43NhmaW/
+              - link [ref=e129] [cursor=pointer]:
+                - /url: /rotu.lab/reel/DX0GZjcBc5E/
+            - generic [ref=e134]:
+              - link [ref=e136] [cursor=pointer]:
+                - /url: /rotu.lab/reel/DUMuaBMDPV8/
+              - link [ref=e142] [cursor=pointer]:
+                - /url: /rotu.lab/reel/DToOCrTkT9H/
+              - link [ref=e148] [cursor=pointer]:
+                - /url: /rotu.lab/reel/DToKR5cEW3E/
+            - link [ref=e155] [cursor=pointer]:
+              - /url: /rotu.lab/reel/DTPR0RSDuZd/
+          - button [ref=e162] [cursor=pointer]:
+            - generic [ref=e163]: Mostrar más publicaciones de rotu.lab
+    - contentinfo [ref=e165]:
+      - generic [ref=e166]:
+        - generic [ref=e168]:
+          - link [ref=e170] [cursor=pointer]:
+            - /url: https://about.meta.com/
+            - generic [ref=e171]: Meta
+          - link [ref=e173] [cursor=pointer]:
+            - /url: https://about.instagram.com/
+            - generic [ref=e174]: Información
+          - link [ref=e176] [cursor=pointer]:
+            - /url: https://about.instagram.com/blog/
+            - generic [ref=e177]: Blog
+          - link [ref=e179] [cursor=pointer]:
+            - /url: https://about.instagram.com/about-us/careers
+            - generic [ref=e180]: Empleo
+          - link [ref=e182] [cursor=pointer]:
+            - /url: https://help.instagram.com/
+            - generic [ref=e183]: Ayuda
+          - link [ref=e185] [cursor=pointer]:
+            - /url: https://developers.facebook.com/docs/instagram
+            - generic [ref=e186]: API
+          - link [ref=e188] [cursor=pointer]:
+            - /url: /legal/privacy/
+            - generic [ref=e189]: Privacidad
+          - link [ref=e191] [cursor=pointer]:
+            - /url: /legal/terms/
+            - generic [ref=e192]: Condiciones
+          - link [ref=e194] [cursor=pointer]:
+            - /url: /explore/locations/
+            - generic [ref=e195]: Ubicaciones
+          - link [ref=e197] [cursor=pointer]:
+            - /url: /popular/
+            - generic [ref=e198]: Popular
+          - link [ref=e200] [cursor=pointer]:
+            - /url: /web/lite/
+            - generic [ref=e201]: Instagram Lite
+          - link [ref=e203] [cursor=pointer]:
+            - /url: https://www.meta.ai/?utm_source=foa_web_footer
+            - generic [ref=e204]: Meta AI
+          - link [ref=e206] [cursor=pointer]:
+            - /url: https://www.threads.com/
+            - generic [ref=e207]: Threads
+          - link [ref=e209] [cursor=pointer]:
+            - /url: https://www.facebook.com/help/instagram/261704639352628
+            - generic [ref=e210]: Importación de contactos y no usuarios
+          - link [ref=e212] [cursor=pointer]:
+            - /url: /accounts/meta_verified/?entrypoint=web_footer
+            - generic [ref=e213]: Meta Verified
+        - generic [ref=e214]:
+          - generic [ref=e215] [cursor=pointer]:
+            - generic [ref=e216]: Español
+            - combobox [ref=e222]
+          - generic [ref=e223]: © 2026 Instagram from Meta
+  - dialog [ref=e236]:
+    - generic [ref=e239]:
+      - generic [ref=e240]:
+        - status "Cargando..." [active] [ref=e243]
+        - generic [ref=e244]:
+          - status "Cargando..." [ref=e245]
+          - status "Cargando..." [ref=e246]
+      - generic [ref=e247]:
+        - status "Cargando..." [ref=e248]
+        - status "Cargando..." [ref=e249]

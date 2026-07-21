@@ -2,6 +2,8 @@
 
 import { motion } from 'framer-motion';
 import { ArrowRight, MessageSquare } from 'lucide-react';
+import Link from 'next/link';
+import { businessConfig } from '@/config/business';
 import styles from './Hero.module.css';
 
 export default function Hero() {
@@ -47,7 +49,7 @@ export default function Hero() {
 
         {/* Título Principal */}
         <motion.h1 className={styles.title} variants={itemVariants}>
-          ROTULAB
+          {businessConfig.name}
           <span className={styles.titleHighlight}>
             Innovación en Publicidad
           </span>
@@ -55,24 +57,19 @@ export default function Hero() {
 
         {/* Subtítulo descriptivo */}
         <motion.p className={styles.subtitle} variants={itemVariants}>
-          Materializamos la identidad visual de tu marca mediante{' '}
-          <span className={styles.subtitleHighlight}>innovación visual</span> y{' '}
-          <span className={styles.subtitleHighlight}>
-            soluciones tecnológicas de vanguardia
-          </span>
-          . Desde diseño digital hasta piezas físicas interactivas en 3D, NFC y corte láser.
+          {businessConfig.tagline} {businessConfig.description}
         </motion.p>
 
         {/* CTAs */}
         <motion.div className={styles.ctaContainer} variants={itemVariants}>
-          <a href="#servicios" className={`${styles.btn} ${styles.btnCyan}`}>
+          <Link href="/servicios" className={`${styles.btn} ${styles.btnCyan}`}>
             Ver Servicios
             <ArrowRight size={18} />
-          </a>
-          <a href="#contacto" className={`${styles.btn} ${styles.btnOutline}`}>
+          </Link>
+          <Link href="/contacto" className={`${styles.btn} ${styles.btnOutline}`}>
             Contáctanos
             <MessageSquare size={18} />
-          </a>
+          </Link>
         </motion.div>
       </motion.div>
     </section>
