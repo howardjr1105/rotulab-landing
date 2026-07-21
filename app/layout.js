@@ -16,11 +16,16 @@ const inter = Inter({
 });
 
 export const metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://rotulab-landing.vercel.app'),
   title: 'ROTULAB | Innovación Visual, NFC e Impresión Profesional',
   description: 'Landing page premium de ROTULAB. Especialistas en impresión DTF, soluciones inteligentes NFC, impresión 3D, corte láser, señalización y producción audiovisual en Nicaragua.',
   keywords: ['ROTULAB', 'DTF', 'NFC', 'Impresión 3D', 'Corte Láser', 'Señalización', 'Audiovisual', 'Nicaragua'],
   authors: [{ name: 'ROTULAB Team' }],
   creator: 'ROTULAB',
+  icons: {
+    icon: '/images/logos/2026_01_03_11_15_00_IMG_0018.PNG',
+    apple: '/images/logos/2026_01_03_11_15_00_IMG_0018.PNG',
+  },
   openGraph: {
     title: 'ROTULAB | Innovación Visual y Tecnológica',
     description: 'Personalización de alto impacto, soluciones NFC e impresión avanzada.',
