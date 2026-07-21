@@ -72,20 +72,22 @@ export default function Hero() {
               style={{ position: 'absolute', top: 0, left: 0, mixBlendMode: 'screen', zIndex: 1 }}
             >
               <Image 
-                src="/images/logos/2026_01_03_11_15_00_IMG_0018.PNG" 
+                src="/images/logos/2026_01_05_16_30_33_IMG_0054.PNG" 
                 alt="Glow ROTULAB" 
-                width={120} 
-                height={120} 
+                width={400} 
+                height={174}
+                style={{ width: '100%', height: 'auto', maxWidth: '400px' }}
               />
             </motion.div>
 
             {/* Capa Frontal (Logo Principal sin fondo negro) */}
             <motion.div style={{ mixBlendMode: 'screen', position: 'relative', zIndex: 2 }}>
               <Image 
-                src="/images/logos/2026_01_03_11_15_00_IMG_0018.PNG" 
+                src="/images/logos/2026_01_05_16_30_33_IMG_0054.PNG" 
                 alt="Logotipo de ROTULAB" 
-                width={120} 
-                height={120} 
+                width={400} 
+                height={174}
+                style={{ width: '100%', height: 'auto', maxWidth: '400px' }}
                 priority
               />
             </motion.div>
@@ -93,9 +95,12 @@ export default function Hero() {
         </motion.div>
 
         {/* Título Principal */}
-        <motion.h1 className={styles.title} variants={itemVariants}>
-          {businessConfig.name}
-          <span className={styles.titleHighlight}>
+        <motion.h1 
+          className={styles.title} 
+          variants={itemVariants}
+          aria-label={`${businessConfig.name} Innovación en Publicidad`}
+        >
+          <span className={styles.titleHighlight} aria-hidden="true">
             Innovación en Publicidad
           </span>
         </motion.h1>
