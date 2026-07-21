@@ -60,7 +60,6 @@ export default function About() {
             variants={fadeUpVariants}
           >
             <div className={styles.sectionHeader}>
-              <span className={styles.subtitle}>Ecosistema de Fabricación</span>
               <h2 className={styles.title}>¿Quiénes Somos?</h2>
             </div>
             <p className={styles.description}>

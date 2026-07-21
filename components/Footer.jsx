@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { Phone, Mail, MapPin } from 'lucide-react';
 import { FacebookIcon, InstagramIcon, TikTokIcon, WhatsAppIcon } from '@/components/icons/SocialIcons';
 import { businessConfig } from '@/config/business';
 import styles from './Footer.module.css';
@@ -56,7 +57,28 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Columna Contacto & Redes */}
+        {/* Columna Contacto */}
+        <div>
+          <h4 className={styles.title}>Contacto</h4>
+          <ul className={styles.contactList}>
+            <li className={styles.contactItem}>
+              <Phone size={16} className={styles.contactIcon} />
+              <span>{businessConfig.contact.phone}</span>
+            </li>
+            <li className={styles.contactItem}>
+              <Mail size={16} className={styles.contactIcon} />
+              <a href={`mailto:${businessConfig.contact.email}`} className={styles.contactLink}>
+                {businessConfig.contact.email}
+              </a>
+            </li>
+            <li className={styles.contactItem}>
+              <MapPin size={16} className={styles.contactIcon} />
+              <span>{businessConfig.contact.address}</span>
+            </li>
+          </ul>
+        </div>
+
+        {/* Columna Redes Sociales */}
         <div>
           <h4 className={styles.title}>Redes Sociales</h4>
           <div className={styles.socialLinks}>
@@ -87,7 +109,7 @@ export default function Footer() {
       {/* Barra de Copyright */}
       <div className={styles.bottomBar}>
         <span className={styles.copyright}>
-          &copy; {currentYear} <span style={{ color: '#ffffff', fontWeight: 600 }}>{businessConfig.name}</span>. Todos los derechos reservados.
+          &copy; {currentYear} <span style={{ color: '#ffffff', fontWeight: 600 }}>{businessConfig.legalName}</span>. Todos los derechos reservados.
         </span>
         <span className={styles.copyright} style={{ fontSize: '0.8rem' }}>
           Diseño e Innovación Digital

@@ -18,69 +18,36 @@
  */
 export const PORTFOLIO_DATA = [
   {
-    id: "camisetas-corp-dtf",
-    title: "Camisetas Corporativas Premium",
-    serviceId: "dtf",
-    description: "Impresión DTF de alta definición con tintas ecológicas sobre camisetas de algodón orgánico negro.",
-    sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/IMG_3414.jpg",
-    publicUrl: "/images/portfolio/IMG_3414.jpg",
-    tags: ["Textil", "Corporativo", "Merchandising"],
-    clientName: "TechHub Nicaragua",
-    year: "2025"
-  },
-  {
-    id: "tarjetas-premium-nfc",
-    title: "Tarjetas de Presentación Inteligentes NFC",
-    serviceId: "nfc",
-    description: "Fabricación de tarjetas acrílicas negro mate grabadas a láser con integración de chip NFC de contacto rápido.",
-    sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/IMG_5641.jpg",
-    publicUrl: "/images/portfolio/IMG_5641.jpg",
-    tags: ["NFC", "Acrílico", "Premium"],
-    clientName: "Estudio Legal Asesores",
-    year: "2026"
-  },
-  {
-    id: "prototipo-motor-3d",
-    title: "Prototipo Funcional de Motor Rotativo",
-    serviceId: "3d-printing",
-    description: "Impresión 3D en resina de alta definición (SLA) para piezas móviles transparentes y filamento PETG para el bloque.",
-    sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/IMG_5455.jpg",
-    publicUrl: "/images/portfolio/IMG_5455.jpg",
-    tags: ["Resina", "Ingeniería", "Prototipado"],
-    clientName: "Facultad de Ingeniería Mecánica",
-    year: "2025"
-  },
-  {
-    id: "letrero-luminoso-led-laser",
-    title: "Señalización Luminosa LED & Corte Láser",
-    serviceId: "laser-cutting",
-    description: "Letrero de interiores fabricado en MDF de 9mm cortado a láser, retroiluminado con tiras LED cian neón.",
-    sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_16_56_IMG_0470.JPG",
-    publicUrl: "/images/portfolio/2026_05_11_18_16_56_IMG_0470.JPG",
-    tags: ["Corte Láser", "LED", "MDF"],
-    clientName: "Gamer Zone E-Sports",
-    year: "2026"
-  },
-  {
-    id: "rotulo-fachada-acm",
-    title: "Rótulo de Fachada en Aluminio Compuesto",
+    id: "rotulacion-camioneta",
+    title: "Rotulación Vehicular de Camioneta Comercial",
     serviceId: "signage",
-    description: "Diseño, estructuración e instalación de panel exterior ACM con letras 3D de acero inoxidable iluminadas por detrás.",
+    description: "Rotulación vehicular de camioneta en Asheville mediante vinilo premium Avery/3M (letras de corte y cobertura parcial).",
+    sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_16_20_IMG_0469.JPG",
+    publicUrl: "/images/portfolio/2026_05_11_18_16_20_IMG_0469.JPG",
+    tags: ["Rotulación", "Camioneta", "Asheville"],
+    clientName: "Cliente Local",
+    year: "2026"
+  },
+  {
+    id: "rotulacion-minivan",
+    title: "Rotulación Vehicular de Minivan",
+    serviceId: "signage",
+    description: "Rotulación comercial de minivan de reparto con diseño y aplicación de vinilo adhesivo de alta durabilidad.",
     sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_17_32_IMG_0471.JPG",
     publicUrl: "/images/portfolio/2026_05_11_18_17_32_IMG_0471.JPG",
-    tags: ["Señalización", "ACM", "Exteriores"],
-    clientName: "Clínica Odontológica DentalCare",
-    year: "2025"
+    tags: ["Rotulación", "Minivan", "Publicidad"],
+    clientName: "Cliente Local",
+    year: "2026"
   },
   {
-    id: "video-promocional-dron",
-    title: "Video Promocional y Tomas Aéreas",
-    serviceId: "audiovisual",
-    description: "Producción audiovisual completa incluyendo tomas aéreas 4K con dron para la campaña de verano de complejo turístico.",
-    sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_18_56_IMG_0473.JPG",
-    publicUrl: "/images/portfolio/2026_05_11_18_18_56_IMG_0473.JPG",
-    tags: ["Video", "Dron", "4K", "Promocional"],
-    clientName: "Resort Selva Azul",
-    year: "2025"
+    id: "llaveros-nfc-logos",
+    title: "Llaveros NFC Personalizados con Logotipo",
+    serviceId: "nfc",
+    description: "Llaveros NFC personalizados con logotipo grabados a láser en acrílico, permitiendo compartir datos de contacto al instante.",
+    sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/IMG_5641.jpg",
+    publicUrl: "/images/portfolio/IMG_5641.jpg",
+    tags: ["NFC", "Acrílico", "Llaveros"],
+    clientName: "Café Estelar",
+    year: "2026"
   }
 ];

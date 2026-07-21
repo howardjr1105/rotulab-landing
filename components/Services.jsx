@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Shirt, Cpu, Layers, Scissors, MapPin, Video, X, Check, Activity } from 'lucide-react';
+import { Shirt, Cpu, Layers, Scissors, MapPin, Video, X, Check, Activity, Palette } from 'lucide-react';
 import { SERVICES_DATA } from '@/config/services';
 import styles from './Services.module.css';
 
@@ -16,36 +16,18 @@ const getIcon = (iconName, color = 'currentColor') => {
     case 'Scissors': return <Scissors {...props} />;
     case 'MapPin': return <MapPin {...props} />;
     case 'Video': return <Video {...props} />;
+    case 'Palette': return <Palette {...props} />;
     default: return <Cpu {...props} />;
   }
 };
 
 // Mapeo de colores neón por servicio
 const getNeonColors = (serviceId) => {
-  switch (serviceId) {
-    case 'nfc':
-    case 'dtf':
-    case 'signage':
-      return {
-        accent: '#e30613', // Rojo oficial de ROTULAB
-        bgOpacity: 'rgba(227, 6, 19, 0.1)',
-        glow: 'rgba(227, 6, 19, 0.25)',
-      };
-    case '3d-printing':
-    case 'laser-cutting':
-    case 'audiovisual':
-      return {
-        accent: '#ffffff', // Blanco absoluto
-        bgOpacity: 'rgba(255, 255, 255, 0.1)',
-        glow: 'rgba(255, 255, 255, 0.25)',
-      };
-    default:
-      return {
-        accent: '#e30613',
-        bgOpacity: 'rgba(227, 6, 19, 0.1)',
-        glow: 'rgba(227, 6, 19, 0.25)',
-      };
-  }
+  return {
+    accent: '#e30613', // Rojo oficial de ROTULAB
+    bgOpacity: 'rgba(227, 6, 19, 0.1)',
+    glow: 'rgba(227, 6, 19, 0.25)',
+  };
 };
 
 export default function Services() {

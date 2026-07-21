@@ -184,19 +184,10 @@
       "norm_label": "about.jsx"
     },
     {
-      "label": "TikTokIcon()",
-      "file_type": "code",
-      "source_file": "components/About.jsx",
-      "source_location": "L9",
-      "id": "components_about_tiktokicon",
-      "community": 12,
-      "norm_label": "tiktokicon()"
-    },
-    {
       "label": "About()",
       "file_type": "code",
       "source_file": "components/About.jsx",
-      "source_location": "L24",
+      "source_location": "L9",
       "id": "components_about_about",
       "community": 12,
       "norm_label": "about()"
@@ -214,7 +205,7 @@
       "label": "Contact()",
       "file_type": "code",
       "source_file": "components/Contact.jsx",
-      "source_location": "L8",
+      "source_location": "L9",
       "id": "components_contact_contact",
       "community": 19,
       "norm_label": "contact()"
@@ -229,19 +220,10 @@
       "norm_label": "footer.jsx"
     },
     {
-      "label": "TikTokIcon()",
-      "file_type": "code",
-      "source_file": "components/Footer.jsx",
-      "source_location": "L10",
-      "id": "components_footer_tiktokicon",
-      "community": 7,
-      "norm_label": "tiktokicon()"
-    },
-    {
       "label": "getSocialIcon()",
       "file_type": "code",
       "source_file": "components/Footer.jsx",
-      "source_location": "L26",
+      "source_location": "L10",
       "id": "components_footer_getsocialicon",
       "community": 7,
       "norm_label": "getsocialicon()"
@@ -250,7 +232,7 @@
       "label": "Footer()",
       "file_type": "code",
       "source_file": "components/Footer.jsx",
-      "source_location": "L36",
+      "source_location": "L20",
       "id": "components_footer_footer",
       "community": 7,
       "norm_label": "footer()"
@@ -362,6 +344,51 @@
       "id": "components_services_services",
       "community": 9,
       "norm_label": "services()"
+    },
+    {
+      "label": "SocialIcons.jsx",
+      "file_type": "code",
+      "source_file": "components/icons/SocialIcons.jsx",
+      "source_location": "L1",
+      "id": "icons_socialicons",
+      "community": 6,
+      "norm_label": "socialicons.jsx"
+    },
+    {
+      "label": "FacebookIcon()",
+      "file_type": "code",
+      "source_file": "components/icons/SocialIcons.jsx",
+      "source_location": "L4",
+      "id": "icons_socialicons_facebookicon",
+      "community": 6,
+      "norm_label": "facebookicon()"
+    },
+    {
+      "label": "InstagramIcon()",
+      "file_type": "code",
+      "source_file": "components/icons/SocialIcons.jsx",
+      "source_location": "L20",
+      "id": "icons_socialicons_instagramicon",
+      "community": 6,
+      "norm_label": "instagramicon()"
+    },
+    {
+      "label": "TikTokIcon()",
+      "file_type": "code",
+      "source_file": "components/icons/SocialIcons.jsx",
+      "source_location": "L38",
+      "id": "icons_socialicons_tiktokicon",
+      "community": 6,
+      "norm_label": "tiktokicon()"
+    },
+    {
+      "label": "WhatsAppIcon()",
+      "file_type": "code",
+      "source_file": "components/icons/SocialIcons.jsx",
+      "source_location": "L54",
+      "id": "icons_socialicons_whatsappicon",
+      "community": 6,
+      "norm_label": "whatsappicon()"
     },
     {
       "label": "business.js",
@@ -873,7 +900,7 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L64",
       "id": "rotulab_master_component_specs",
-      "community": 6,
+      "community": 0,
       "norm_label": "component specs"
     },
     {
@@ -882,7 +909,7 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L66",
       "id": "rotulab_master_buttons",
-      "community": 6,
+      "community": 0,
       "norm_label": "buttons"
     },
     {
@@ -891,7 +918,7 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L98",
       "id": "rotulab_master_cards",
-      "community": 6,
+      "community": 0,
       "norm_label": "cards"
     },
     {
@@ -900,7 +927,7 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L116",
       "id": "rotulab_master_inputs",
-      "community": 6,
+      "community": 0,
       "norm_label": "inputs"
     },
     {
@@ -909,7 +936,7 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L134",
       "id": "rotulab_master_modals",
-      "community": 6,
+      "community": 0,
       "norm_label": "modals"
     },
     {
@@ -956,6 +983,24 @@
       "id": "rotulab_master_pre_delivery_checklist",
       "community": 0,
       "norm_label": "pre-delivery checklist"
+    },
+    {
+      "label": "TikTokIcon()",
+      "file_type": "code",
+      "source_file": "components/About.jsx",
+      "source_location": "L9",
+      "community": 12,
+      "norm_label": "tiktokicon()",
+      "id": "components_about_tiktokicon"
+    },
+    {
+      "label": "TikTokIcon()",
+      "file_type": "code",
+      "source_file": "components/Footer.jsx",
+      "source_location": "L10",
+      "community": 7,
+      "norm_label": "tiktokicon()",
+      "id": "components_footer_tiktokicon"
     }
   ],
   "links": [
@@ -965,9 +1010,9 @@
       "source_file": "app/contacto/page.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "contacto_page",
-      "target": "contacto_page_contactopage",
-      "confidence_score": 1.0
+      "target": "contacto_page_contactopage"
     },
     {
       "relation": "contains",
@@ -975,9 +1020,9 @@
       "source_file": "app/contacto/page.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "contacto_page",
-      "target": "contacto_page_metadata",
-      "confidence_score": 1.0
+      "target": "contacto_page_metadata"
     },
     {
       "relation": "contains",
@@ -985,9 +1030,9 @@
       "source_file": "app/layout.js",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_layout",
-      "target": "app_layout_inter",
-      "confidence_score": 1.0
+      "target": "app_layout_inter"
     },
     {
       "relation": "contains",
@@ -995,9 +1040,9 @@
       "source_file": "app/layout.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_layout",
-      "target": "app_layout_metadata",
-      "confidence_score": 1.0
+      "target": "app_layout_metadata"
     },
     {
       "relation": "contains",
@@ -1005,9 +1050,9 @@
       "source_file": "app/layout.js",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_layout",
-      "target": "app_layout_montserrat",
-      "confidence_score": 1.0
+      "target": "app_layout_montserrat"
     },
     {
       "relation": "contains",
@@ -1015,9 +1060,9 @@
       "source_file": "app/layout.js",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_layout",
-      "target": "app_layout_rootlayout",
-      "confidence_score": 1.0
+      "target": "app_layout_rootlayout"
     },
     {
       "relation": "contains",
@@ -1025,9 +1070,9 @@
       "source_file": "app/nosotros/page.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "nosotros_page",
-      "target": "nosotros_page_metadata",
-      "confidence_score": 1.0
+      "target": "nosotros_page_metadata"
     },
     {
       "relation": "contains",
@@ -1035,9 +1080,9 @@
       "source_file": "app/nosotros/page.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "nosotros_page",
-      "target": "nosotros_page_nosotrospage",
-      "confidence_score": 1.0
+      "target": "nosotros_page_nosotrospage"
     },
     {
       "relation": "contains",
@@ -1045,9 +1090,9 @@
       "source_file": "app/page.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_page",
-      "target": "app_page_home",
-      "confidence_score": 1.0
+      "target": "app_page_home"
     },
     {
       "relation": "contains",
@@ -1055,9 +1100,9 @@
       "source_file": "app/portafolio/page.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portafolio_page",
-      "target": "portafolio_page_metadata",
-      "confidence_score": 1.0
+      "target": "portafolio_page_metadata"
     },
     {
       "relation": "contains",
@@ -1065,9 +1110,9 @@
       "source_file": "app/portafolio/page.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "portafolio_page",
-      "target": "portafolio_page_portafoliopage",
-      "confidence_score": 1.0
+      "target": "portafolio_page_portafoliopage"
     },
     {
       "relation": "contains",
@@ -1075,9 +1120,9 @@
       "source_file": "app/servicios/page.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "servicios_page",
-      "target": "servicios_page_metadata",
-      "confidence_score": 1.0
+      "target": "servicios_page_metadata"
     },
     {
       "relation": "contains",
@@ -1085,9 +1130,9 @@
       "source_file": "app/servicios/page.js",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "servicios_page",
-      "target": "servicios_page_serviciospage",
-      "confidence_score": 1.0
+      "target": "servicios_page_serviciospage"
     },
     {
       "relation": "contains",
@@ -1095,9 +1140,9 @@
       "source_file": "components/About.jsx",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_about",
-      "target": "components_about_about",
-      "confidence_score": 1.0
+      "target": "components_about_about"
     },
     {
       "relation": "contains",
@@ -1105,9 +1150,9 @@
       "source_file": "components/About.jsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_about",
-      "target": "components_about_tiktokicon",
-      "confidence_score": 1.0
+      "target": "components_about_tiktokicon"
     },
     {
       "relation": "contains",
@@ -1115,9 +1160,9 @@
       "source_file": "components/Contact.jsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_contact",
-      "target": "components_contact_contact",
-      "confidence_score": 1.0
+      "target": "components_contact_contact"
     },
     {
       "relation": "contains",
@@ -1125,9 +1170,9 @@
       "source_file": "components/Footer.jsx",
       "source_location": "L36",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_footer",
-      "target": "components_footer_footer",
-      "confidence_score": 1.0
+      "target": "components_footer_footer"
     },
     {
       "relation": "contains",
@@ -1135,9 +1180,9 @@
       "source_file": "components/Footer.jsx",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_footer",
-      "target": "components_footer_getsocialicon",
-      "confidence_score": 1.0
+      "target": "components_footer_getsocialicon"
     },
     {
       "relation": "contains",
@@ -1145,9 +1190,9 @@
       "source_file": "components/Footer.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_footer",
-      "target": "components_footer_tiktokicon",
-      "confidence_score": 1.0
+      "target": "components_footer_tiktokicon"
     },
     {
       "relation": "contains",
@@ -1155,9 +1200,9 @@
       "source_file": "components/Hero.jsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_hero",
-      "target": "components_hero_hero",
-      "confidence_score": 1.0
+      "target": "components_hero_hero"
     },
     {
       "relation": "contains",
@@ -1165,9 +1210,9 @@
       "source_file": "components/Navbar.jsx",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_navbar",
-      "target": "components_navbar_navbar",
-      "confidence_score": 1.0
+      "target": "components_navbar_navbar"
     },
     {
       "relation": "contains",
@@ -1175,9 +1220,9 @@
       "source_file": "components/Portfolio.jsx",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_portfolio",
-      "target": "components_portfolio_brand_logos",
-      "confidence_score": 1.0
+      "target": "components_portfolio_brand_logos"
     },
     {
       "relation": "contains",
@@ -1185,9 +1230,9 @@
       "source_file": "components/Portfolio.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_portfolio",
-      "target": "components_portfolio_categories",
-      "confidence_score": 1.0
+      "target": "components_portfolio_categories"
     },
     {
       "relation": "contains",
@@ -1195,9 +1240,9 @@
       "source_file": "components/Portfolio.jsx",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_portfolio",
-      "target": "components_portfolio_portfolio",
-      "confidence_score": 1.0
+      "target": "components_portfolio_portfolio"
     },
     {
       "relation": "contains",
@@ -1205,9 +1250,9 @@
       "source_file": "components/Services.jsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_services",
-      "target": "components_services_geticon",
-      "confidence_score": 1.0
+      "target": "components_services_geticon"
     },
     {
       "relation": "contains",
@@ -1215,9 +1260,9 @@
       "source_file": "components/Services.jsx",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_services",
-      "target": "components_services_getneoncolors",
-      "confidence_score": 1.0
+      "target": "components_services_getneoncolors"
     },
     {
       "relation": "contains",
@@ -1225,9 +1270,9 @@
       "source_file": "components/Services.jsx",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_services",
-      "target": "components_services_services",
-      "confidence_score": 1.0
+      "target": "components_services_services"
     },
     {
       "relation": "calls",
@@ -1236,9 +1281,9 @@
       "source_file": "components/Services.jsx",
       "source_location": "L162",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_services_services",
-      "target": "components_services_geticon",
-      "confidence_score": 1.0
+      "target": "components_services_geticon"
     },
     {
       "relation": "calls",
@@ -1247,8 +1292,48 @@
       "source_file": "components/Services.jsx",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_services_services",
-      "target": "components_services_getneoncolors",
+      "target": "components_services_getneoncolors"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/icons/SocialIcons.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "icons_socialicons",
+      "target": "icons_socialicons_facebookicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/icons/SocialIcons.jsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "icons_socialicons",
+      "target": "icons_socialicons_instagramicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/icons/SocialIcons.jsx",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "icons_socialicons",
+      "target": "icons_socialicons_tiktokicon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/icons/SocialIcons.jsx",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "icons_socialicons",
+      "target": "icons_socialicons_whatsappicon",
       "confidence_score": 1.0
     },
     {
@@ -1257,9 +1342,9 @@
       "source_file": "config/business.js",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "config_business",
-      "target": "config_business_businessconfig",
-      "confidence_score": 1.0
+      "target": "config_business_businessconfig"
     },
     {
       "relation": "contains",
@@ -1267,9 +1352,9 @@
       "source_file": "config/portfolio.js",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "config_portfolio",
-      "target": "config_portfolio_portfolio_data",
-      "confidence_score": 1.0
+      "target": "config_portfolio_portfolio_data"
     },
     {
       "relation": "contains",
@@ -1277,9 +1362,9 @@
       "source_file": "config/services.js",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "config_services",
-      "target": "config_services_services_data",
-      "confidence_score": 1.0
+      "target": "config_services_services_data"
     },
     {
       "relation": "contains",
@@ -1287,9 +1372,9 @@
       "source_file": "jest.config.js",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "jest_config",
-      "target": "jest_config_createjestconfig",
-      "confidence_score": 1.0
+      "target": "jest_config_createjestconfig"
     },
     {
       "relation": "contains",
@@ -1297,9 +1382,9 @@
       "source_file": "jest.config.js",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "jest_config",
-      "target": "jest_config_customjestconfig",
-      "confidence_score": 1.0
+      "target": "jest_config_customjestconfig"
     },
     {
       "relation": "contains",
@@ -1307,9 +1392,9 @@
       "source_file": "jest.config.js",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "jest_config",
-      "target": "jest_config_nextjest",
-      "confidence_score": 1.0
+      "target": "jest_config_nextjest"
     },
     {
       "relation": "contains",
@@ -1317,9 +1402,9 @@
       "source_file": "jsconfig.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "jsconfig",
-      "target": "jsconfig_compileroptions",
-      "confidence_score": 1.0
+      "target": "jsconfig_compileroptions"
     },
     {
       "relation": "contains",
@@ -1327,9 +1412,9 @@
       "source_file": "jsconfig.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "jsconfig_compileroptions",
-      "target": "jsconfig_compileroptions_paths",
-      "confidence_score": 1.0
+      "target": "jsconfig_compileroptions_paths"
     },
     {
       "relation": "contains",
@@ -1337,9 +1422,9 @@
       "source_file": "jsconfig.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "jsconfig_compileroptions_paths",
-      "target": "jsconfig_paths",
-      "confidence_score": 1.0
+      "target": "jsconfig_paths"
     },
     {
       "relation": "contains",
@@ -1347,9 +1432,9 @@
       "source_file": "middleware.js",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware",
-      "target": "middleware_config",
-      "confidence_score": 1.0
+      "target": "middleware_config"
     },
     {
       "relation": "contains",
@@ -1357,9 +1442,9 @@
       "source_file": "middleware.js",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "middleware",
-      "target": "middleware_middleware",
-      "confidence_score": 1.0
+      "target": "middleware_middleware"
     },
     {
       "relation": "contains",
@@ -1367,9 +1452,9 @@
       "source_file": "package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_dependencies",
-      "confidence_score": 1.0
+      "target": "package_dependencies"
     },
     {
       "relation": "contains",
@@ -1377,9 +1462,9 @@
       "source_file": "package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_devdependencies",
-      "confidence_score": 1.0
+      "target": "package_devdependencies"
     },
     {
       "relation": "contains",
@@ -1387,9 +1472,9 @@
       "source_file": "package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_name",
-      "confidence_score": 1.0
+      "target": "package_name"
     },
     {
       "relation": "contains",
@@ -1397,9 +1482,9 @@
       "source_file": "package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_private",
-      "confidence_score": 1.0
+      "target": "package_private"
     },
     {
       "relation": "contains",
@@ -1407,9 +1492,9 @@
       "source_file": "package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_scripts",
-      "confidence_score": 1.0
+      "target": "package_scripts"
     },
     {
       "relation": "contains",
@@ -1417,9 +1502,9 @@
       "source_file": "package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package",
-      "target": "package_version",
-      "confidence_score": 1.0
+      "target": "package_version"
     },
     {
       "relation": "contains",
@@ -1427,9 +1512,9 @@
       "source_file": "package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_build",
-      "confidence_score": 1.0
+      "target": "package_scripts_build"
     },
     {
       "relation": "contains",
@@ -1437,9 +1522,9 @@
       "source_file": "package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_dev",
-      "confidence_score": 1.0
+      "target": "package_scripts_dev"
     },
     {
       "relation": "contains",
@@ -1447,9 +1532,9 @@
       "source_file": "package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_lint",
-      "confidence_score": 1.0
+      "target": "package_scripts_lint"
     },
     {
       "relation": "contains",
@@ -1457,9 +1542,9 @@
       "source_file": "package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_start",
-      "confidence_score": 1.0
+      "target": "package_scripts_start"
     },
     {
       "relation": "contains",
@@ -1467,9 +1552,9 @@
       "source_file": "package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_test",
-      "confidence_score": 1.0
+      "target": "package_scripts_test"
     },
     {
       "relation": "contains",
@@ -1477,9 +1562,9 @@
       "source_file": "package.json",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_scripts",
-      "target": "package_scripts_test_watch",
-      "confidence_score": 1.0
+      "target": "package_scripts_test_watch"
     },
     {
       "relation": "contains",
@@ -1487,9 +1572,9 @@
       "source_file": "package.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_framer_motion",
-      "confidence_score": 1.0
+      "target": "package_dependencies_framer_motion"
     },
     {
       "relation": "contains",
@@ -1497,9 +1582,9 @@
       "source_file": "package.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_lucide_react",
-      "confidence_score": 1.0
+      "target": "package_dependencies_lucide_react"
     },
     {
       "relation": "contains",
@@ -1507,9 +1592,9 @@
       "source_file": "package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_next",
-      "confidence_score": 1.0
+      "target": "package_dependencies_next"
     },
     {
       "relation": "contains",
@@ -1517,9 +1602,9 @@
       "source_file": "package.json",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_react",
-      "confidence_score": 1.0
+      "target": "package_dependencies_react"
     },
     {
       "relation": "contains",
@@ -1527,9 +1612,9 @@
       "source_file": "package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_dependencies",
-      "target": "package_dependencies_react_dom",
-      "confidence_score": 1.0
+      "target": "package_dependencies_react_dom"
     },
     {
       "relation": "contains",
@@ -1537,9 +1622,9 @@
       "source_file": "package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_jest",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_jest"
     },
     {
       "relation": "contains",
@@ -1547,9 +1632,9 @@
       "source_file": "package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_jest_environment_jsdom",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_jest_environment_jsdom"
     },
     {
       "relation": "contains",
@@ -1557,9 +1642,9 @@
       "source_file": "package.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_testing_library_jest_dom",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_testing_library_jest_dom"
     },
     {
       "relation": "contains",
@@ -1567,9 +1652,9 @@
       "source_file": "package.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "package_devdependencies",
-      "target": "package_devdependencies_testing_library_react",
-      "confidence_score": 1.0
+      "target": "package_devdependencies_testing_library_react"
     },
     {
       "relation": "contains",
@@ -1577,9 +1662,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme",
-      "target": "readme_rotulab_landing_page_premium",
-      "confidence_score": 1.0
+      "target": "readme_rotulab_landing_page_premium"
     },
     {
       "relation": "contains",
@@ -1587,9 +1672,9 @@
       "source_file": "README.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_rotulab_landing_page_premium",
-      "target": "readme_arquitectura_y_estructura_del_proyecto",
-      "confidence_score": 1.0
+      "target": "readme_arquitectura_y_estructura_del_proyecto"
     },
     {
       "relation": "contains",
@@ -1597,9 +1682,9 @@
       "source_file": "README.md",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_rotulab_landing_page_premium",
-      "target": "readme_configuraci\u00f3n_y_ejecuci\u00f3n_de_pruebas_tdd",
-      "confidence_score": 1.0
+      "target": "readme_configuraci\u00f3n_y_ejecuci\u00f3n_de_pruebas_tdd"
     },
     {
       "relation": "contains",
@@ -1607,9 +1692,9 @@
       "source_file": "README.md",
       "source_location": "L89",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_rotulab_landing_page_premium",
-      "target": "readme_contratos_de_datos_e_integraci\u00f3n_din\u00e1mica",
-      "confidence_score": 1.0
+      "target": "readme_contratos_de_datos_e_integraci\u00f3n_din\u00e1mica"
     },
     {
       "relation": "contains",
@@ -1617,9 +1702,9 @@
       "source_file": "README.md",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_rotulab_landing_page_premium",
-      "target": "readme_descripci\u00f3n_del_negocio",
-      "confidence_score": 1.0
+      "target": "readme_descripci\u00f3n_del_negocio"
     },
     {
       "relation": "contains",
@@ -1627,9 +1712,9 @@
       "source_file": "README.md",
       "source_location": "L45",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_rotulab_landing_page_premium",
-      "target": "readme_especificaciones_del_dise\u00f1o_visual",
-      "confidence_score": 1.0
+      "target": "readme_especificaciones_del_dise\u00f1o_visual"
     },
     {
       "relation": "contains",
@@ -1637,9 +1722,9 @@
       "source_file": "README.md",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_rotulab_landing_page_premium",
-      "target": "readme_instrucciones_de_instalaci\u00f3n_y_levantamiento",
-      "confidence_score": 1.0
+      "target": "readme_instrucciones_de_instalaci\u00f3n_y_levantamiento"
     },
     {
       "relation": "contains",
@@ -1647,9 +1732,9 @@
       "source_file": "README.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_rotulab_landing_page_premium",
-      "target": "readme_stack_tecnol\u00f3gico_empleado",
-      "confidence_score": 1.0
+      "target": "readme_stack_tecnol\u00f3gico_empleado"
     },
     {
       "relation": "contains",
@@ -1657,9 +1742,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master",
-      "target": "rotulab_master_design_system_master_file",
-      "confidence_score": 1.0
+      "target": "rotulab_master_design_system_master_file"
     },
     {
       "relation": "contains",
@@ -1667,9 +1752,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_design_system_master_file",
-      "target": "rotulab_master_anti_patterns_do_not_use",
-      "confidence_score": 1.0
+      "target": "rotulab_master_anti_patterns_do_not_use"
     },
     {
       "relation": "contains",
@@ -1677,9 +1762,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_design_system_master_file",
-      "target": "rotulab_master_component_specs",
-      "confidence_score": 1.0
+      "target": "rotulab_master_component_specs"
     },
     {
       "relation": "contains",
@@ -1687,9 +1772,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_design_system_master_file",
-      "target": "rotulab_master_global_rules",
-      "confidence_score": 1.0
+      "target": "rotulab_master_global_rules"
     },
     {
       "relation": "contains",
@@ -1697,9 +1782,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L193",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_design_system_master_file",
-      "target": "rotulab_master_pre_delivery_checklist",
-      "confidence_score": 1.0
+      "target": "rotulab_master_pre_delivery_checklist"
     },
     {
       "relation": "contains",
@@ -1707,9 +1792,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L154",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_design_system_master_file",
-      "target": "rotulab_master_style_guidelines",
-      "confidence_score": 1.0
+      "target": "rotulab_master_style_guidelines"
     },
     {
       "relation": "contains",
@@ -1717,9 +1802,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_global_rules",
-      "target": "rotulab_master_color_palette",
-      "confidence_score": 1.0
+      "target": "rotulab_master_color_palette"
     },
     {
       "relation": "contains",
@@ -1727,9 +1812,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_global_rules",
-      "target": "rotulab_master_shadow_depths",
-      "confidence_score": 1.0
+      "target": "rotulab_master_shadow_depths"
     },
     {
       "relation": "contains",
@@ -1737,9 +1822,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_global_rules",
-      "target": "rotulab_master_spacing_variables",
-      "confidence_score": 1.0
+      "target": "rotulab_master_spacing_variables"
     },
     {
       "relation": "contains",
@@ -1747,9 +1832,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_global_rules",
-      "target": "rotulab_master_typography",
-      "confidence_score": 1.0
+      "target": "rotulab_master_typography"
     },
     {
       "relation": "contains",
@@ -1757,9 +1842,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L66",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_component_specs",
-      "target": "rotulab_master_buttons",
-      "confidence_score": 1.0
+      "target": "rotulab_master_buttons"
     },
     {
       "relation": "contains",
@@ -1767,9 +1852,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_component_specs",
-      "target": "rotulab_master_cards",
-      "confidence_score": 1.0
+      "target": "rotulab_master_cards"
     },
     {
       "relation": "contains",
@@ -1777,9 +1862,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_component_specs",
-      "target": "rotulab_master_inputs",
-      "confidence_score": 1.0
+      "target": "rotulab_master_inputs"
     },
     {
       "relation": "contains",
@@ -1787,9 +1872,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_component_specs",
-      "target": "rotulab_master_modals",
-      "confidence_score": 1.0
+      "target": "rotulab_master_modals"
     },
     {
       "relation": "contains",
@@ -1797,9 +1882,9 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L164",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_style_guidelines",
-      "target": "rotulab_master_page_pattern",
-      "confidence_score": 1.0
+      "target": "rotulab_master_page_pattern"
     },
     {
       "relation": "contains",
@@ -1807,11 +1892,11 @@
       "source_file": "design-system/rotulab/MASTER.md",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "rotulab_master_anti_patterns_do_not_use",
-      "target": "rotulab_master_additional_forbidden_patterns",
-      "confidence_score": 1.0
+      "target": "rotulab_master_additional_forbidden_patterns"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "81a8d01a73bbc4c29b920475aad6c65943e5cdb6"
+  "built_at_commit": "7e15788340b69202f2e705a8236c68a996d263ea"
 }

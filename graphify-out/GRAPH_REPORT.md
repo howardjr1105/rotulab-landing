@@ -1,16 +1,16 @@
 # Graph Report - rotulab-landing  (2026-06-05)
 
 ## Corpus Check
-- 23 files · ~429,499 words
+- 24 files · ~429,660 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 106 nodes · 85 edges · 26 communities (17 shown, 9 thin omitted)
+- 111 nodes · 89 edges · 26 communities (17 shown, 9 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `81a8d01a`
+- Built from commit: `7e157883`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -21,7 +21,6 @@
 - [[_COMMUNITY_Community 3|Community 3]]
 - [[_COMMUNITY_Community 4|Community 4]]
 - [[_COMMUNITY_Community 5|Community 5]]
-- [[_COMMUNITY_Community 6|Community 6]]
 - [[_COMMUNITY_Community 8|Community 8]]
 - [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 10|Community 10]]
@@ -56,8 +55,8 @@
 ## Communities (26 total, 9 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.17
-Nodes (11): Additional Forbidden Patterns, Anti-Patterns (Do NOT Use), Color Palette, Design System Master File, Global Rules, Page Pattern, Pre-Delivery Checklist, Shadow Depths (+3 more)
+Cohesion: 0.12
+Nodes (16): Additional Forbidden Patterns, Anti-Patterns (Do NOT Use), Buttons, Cards, Color Palette, Component Specs, Design System Master File, Global Rules (+8 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.22
@@ -78,10 +77,6 @@ Nodes (6): dependencies, framer-motion, lucide-react, next, react, react-dom
 ### Community 5 - "Community 5"
 Cohesion: 0.40
 Nodes (3): inter, metadata, montserrat
-
-### Community 6 - "Community 6"
-Cohesion: 0.40
-Nodes (5): Buttons, Cards, Component Specs, Inputs, Modals
 
 ### Community 9 - "Community 9"
 Cohesion: 0.83
@@ -104,10 +99,10 @@ Nodes (3): compilerOptions, paths, @/*
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `scripts` connect `Community 3` to `Community 1`?**
-  _High betweenness centrality (0.019) - this node is a cross-community bridge._
-- **Why does `Design System Master File` connect `Community 0` to `Community 6`?**
   _High betweenness centrality (0.018) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Community 4` to `Community 1`?**
-  _High betweenness centrality (0.016) - this node is a cross-community bridge._
+  _High betweenness centrality (0.015) - this node is a cross-community bridge._
 - **What connects `metadata`, `montserrat`, `inter` to the rest of the system?**
   _53 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.11764705882352941 - nodes in this community are weakly interconnected._

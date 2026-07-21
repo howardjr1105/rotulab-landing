@@ -30,18 +30,18 @@
     "semantic_hash": ""
   },
   "components/About.jsx": {
-    "mtime": 1780687369.146423,
-    "ast_hash": "977d9bcc90f35d203502a388d597bbf8",
+    "mtime": 1780688318.4100165,
+    "ast_hash": "788b64c137b67bc6b1d5cbe2bbd1d659",
     "semantic_hash": ""
   },
   "components/Contact.jsx": {
-    "mtime": 1780683082.283731,
-    "ast_hash": "db9dc4622ab6d41c6f8dc9c7537974fc",
+    "mtime": 1780688324.726906,
+    "ast_hash": "d37e7be42261e8e72637bd0e3fb863a2",
     "semantic_hash": ""
   },
   "components/Footer.jsx": {
-    "mtime": 1780687299.5479474,
-    "ast_hash": "1dfabba59f4220dc0e796c99d514bf70",
+    "mtime": 1780688321.0380406,
+    "ast_hash": "f655ad1750f81ed8d8bc48a4c8a89331",
     "semantic_hash": ""
   },
   "components/Hero.jsx": {
@@ -65,8 +65,8 @@
     "semantic_hash": ""
   },
   "config/business.js": {
-    "mtime": 1780687914.110976,
-    "ast_hash": "02da270177cf26b9219ca50e05280b7f",
+    "mtime": 1780688409.460281,
+    "ast_hash": "401177e414d8e3146b3ff19eacb8384b",
     "semantic_hash": ""
   },
   "config/portfolio.js": {
@@ -217,6 +217,11 @@
   "public/images/portfolio/IMG_5641.jpg": {
     "mtime": 1780682661.6267056,
     "ast_hash": "fe9456b27a78a2ee16bbeccd61d1c22e",
+    "semantic_hash": ""
+  },
+  "components/icons/SocialIcons.jsx": {
+    "mtime": 1780688313.4467876,
+    "ast_hash": "05929236f3ed813c291b38e54833643e",
     "semantic_hash": ""
   }
 }
