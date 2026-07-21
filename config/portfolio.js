@@ -29,25 +29,25 @@ export const PORTFOLIO_DATA = [
     year: "2026"
   },
   {
-    id: "rotulacion-minivan",
-    title: "Rotulación Vehicular de Minivan",
+    id: "rotulacion-van",
+    title: "Rotulación Vehicular de Van",
     serviceId: "signage",
-    description: "Rotulación comercial de minivan de reparto con diseño y aplicación de vinilo adhesivo de alta durabilidad.",
+    description: "Rotulación comercial de van de reparto con diseño y aplicación de vinilo adhesivo de alta durabilidad.",
     sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_17_32_IMG_0471.JPG",
     publicUrl: "/images/portfolio/2026_05_11_18_17_32_IMG_0471.JPG",
-    tags: ["Rotulación", "Minivan", "Publicidad"],
+    tags: ["Rotulación", "Van", "Publicidad"],
     clientName: "Cliente Local",
     year: "2026"
   },
   {
-    id: "llaveros-nfc-logos",
-    title: "Llaveros NFC Personalizados con Logotipo",
+    id: "tarjetas-nfc-logos",
+    title: "Tarjetas de Presentación Personalizadas",
     serviceId: "nfc",
-    description: "Llaveros NFC personalizados con logotipo grabados a láser en acrílico, permitiendo compartir datos de contacto al instante.",
+    description: "Tarjetas de presentación premium en PVC/Acrílico con tecnología NFC integrada, permitiendo compartir datos de contacto al instante.",
     sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/IMG_5641.jpg",
     publicUrl: "/images/portfolio/IMG_5641.jpg",
-    tags: ["NFC", "Acrílico", "Llaveros"],
-    clientName: "Café Estelar",
+    tags: ["NFC", "Tarjetas", "PVC"],
+    clientName: "Cliente Local",
     year: "2026"
   }
 ];

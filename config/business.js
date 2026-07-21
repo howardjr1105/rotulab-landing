@@ -10,7 +10,7 @@ export const businessConfig = {
   contact: {
     phone: '+1 (828) 636-8793',
     whatsapp: 'https://wa.me/18286368793',
-    email: 'roulan628@gmail.com',
+    email: 'rotulab28@gmail.com',
     address: 'Asheville, Carolina del Norte, USA',
     schedule: 'Lunes a Viernes: 8:00 AM - 5:00 PM | Sábados: 8:00 AM - 12:00 PM',
   },

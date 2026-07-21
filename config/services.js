@@ -58,8 +58,8 @@ export const SERVICES_DATA = [
   },
   {
     id: "nfc",
-    title: "Artículos Promocionales Inteligentes (NFC)",
-    shortDescription: "Llaveros, tarjetas de presentación y cartelería inteligente con interacción sin contacto.",
+    title: "Tarjetas de Presentación Inteligentes (NFC)",
+    shortDescription: "Tarjetas de presentación y cartelería inteligente con interacción sin contacto.",
     detailedDescription: "Integramos tecnología Near Field Communication (NFC) en artículos promocionales exclusivos. Conecta instantáneamente a tus clientes con tu menú digital, catálogo, redes sociales o información de contacto con solo acercar un teléfono móvil.",
     features: [
       "Chips de última generación NTAG213 / NTAG215 embebidos y protegidos.",
