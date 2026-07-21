@@ -29,8 +29,16 @@ export const metadata = {
   openGraph: {
     title: 'ROTULAB | Innovación Visual y Tecnológica',
     description: 'Personalización de alto impacto, soluciones NFC e impresión avanzada.',
-    url: 'https://rotulab.com',
+    url: 'https://rotulab-landing.vercel.app',
     siteName: 'ROTULAB',
+    images: [
+      {
+        url: '/images/logos/2026_01_03_11_15_00_IMG_0018.PNG',
+        width: 1200,
+        height: 630,
+        alt: 'Logo de ROTULAB',
+      },
+    ],
     locale: 'es_NI',
     type: 'website',
   },
@@ -38,6 +46,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'ROTULAB | Innovación Visual',
     description: 'Llevamos tus ideas al plano físico con la máxima precisión tecnológica.',
+    images: ['/images/logos/2026_01_03_11_15_00_IMG_0018.PNG'],
   },
 };
 
