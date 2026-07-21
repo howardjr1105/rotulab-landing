@@ -8,15 +8,15 @@ export const businessConfig = {
   tagline: 'Somos especialistas en imagen comercial y publicidad visual para tiendas y empresas.',
   description: 'Convertimos fachadas y vitrinas en herramientas de venta.',
   contact: {
-    phone: '+1 (828) 636-8793',
-    whatsapp: 'https://wa.me/18286368793',
-    email: 'rotulab28@gmail.com',
+    phone: process.env.NEXT_PUBLIC_PHONE || '+1 (828) 636-8793',
+    whatsapp: process.env.NEXT_PUBLIC_WHATSAPP || 'https://wa.me/18286368793',
+    email: process.env.NEXT_PUBLIC_EMAIL || 'rotulab28@gmail.com',
     address: 'Asheville, Carolina del Norte, USA',
     schedule: 'Lunes a Viernes: 8:00 AM - 5:00 PM | Sábados: 8:00 AM - 12:00 PM',
   },
   social: {
     facebook: {
-      url: 'https://www.facebook.com/profile.php?id=61585802559341',
+      url: process.env.NEXT_PUBLIC_FACEBOOK || 'https://www.facebook.com/profile.php?id=61585802559341',
       label: 'Facebook de Rotulab',
       colors: {
         hoverBg: 'rgba(24, 119, 242, 0.1)',
@@ -25,7 +25,7 @@ export const businessConfig = {
       }
     },
     instagram: {
-      url: 'https://www.instagram.com/rotu.lab',
+      url: process.env.NEXT_PUBLIC_INSTAGRAM || 'https://www.instagram.com/rotu.lab',
       label: 'Instagram de Rotulab',
       colors: {
         hoverBg: 'rgba(225, 48, 108, 0.1)',
@@ -34,7 +34,7 @@ export const businessConfig = {
       }
     },
     whatsapp: {
-      url: 'https://wa.me/18286368793',
+      url: process.env.NEXT_PUBLIC_WHATSAPP || 'https://wa.me/18286368793',
       label: 'Whatsapp de Rotulab',
       colors: {
         hoverBg: 'rgba(37, 211, 102, 0.1)',
@@ -43,7 +43,7 @@ export const businessConfig = {
       }
     },
     tiktok: {
-      url: 'https://www.tiktok.com/@rotulab6?_r=1&_t=ZT-96v7ldQJ',
+      url: process.env.NEXT_PUBLIC_TIKTOK || 'https://www.tiktok.com/@rotulab6?_r=1&_t=ZT-96v7ldQJ',
       label: 'TikTok de Rotulab',
       colors: {
         hoverBg: 'rgba(255, 255, 255, 0.08)',
