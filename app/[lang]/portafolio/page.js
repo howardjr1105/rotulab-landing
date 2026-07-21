@@ -9,10 +9,10 @@ export const metadata = {
  * Página Portafolio (/portafolio).
  * Muestra el showcase de casos de éxito y el carrusel de marcas clientes de ROTULAB.
  */
-export default function PortafolioPage() {
+export default function PortafolioPage({ params: { lang } }) {
   return (
     <main style={{ paddingTop: '80px', minHeight: 'calc(100vh - 120px)' }}>
-      <Portfolio />
+      <Portfolio lang={lang} />
     </main>
   );
 }

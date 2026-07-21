@@ -60,13 +60,13 @@ export const metadata = {
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, params: { lang } }) {
   return (
-    <html lang="es" className={`${montserrat.variable} ${inter.variable}`}>
+    <html lang={lang} className={`${montserrat.variable} ${inter.variable}`}>
       <body className="antialiased selection:bg-[#e30613] selection:text-white">
-        <Navbar />
+        <Navbar lang={lang} />
         {children}
-        <Footer />
+        <Footer lang={lang} />
       </body>
     </html>
   );

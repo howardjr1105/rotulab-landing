@@ -9,10 +9,10 @@ export const metadata = {
  * Página Servicios (/servicios).
  * Renderiza el catálogo interactivo de servicios de ROTULAB.
  */
-export default function ServiciosPage() {
+export default function ServiciosPage({ params: { lang } }) {
   return (
     <main style={{ paddingTop: '80px', minHeight: 'calc(100vh - 120px)' }}>
-      <Services />
+      <Services lang={lang} />
     </main>
   );
 }
