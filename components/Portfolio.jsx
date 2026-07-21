@@ -9,7 +9,7 @@ import styles from './Portfolio.module.css';
 const LABEL_MAP = {
   'design': 'Diseño',
   'fabrication-3d': 'Fabricación 3D',
-  'nfc': 'NFC',
+  'nfc': 'Tarjetas Inteligentes',
   'dtf': 'DTF',
   'signage': 'Rotulación',
   'audiovisual': 'Audiovisual'
