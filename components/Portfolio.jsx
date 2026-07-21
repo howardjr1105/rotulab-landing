@@ -3,47 +3,70 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
-import { PORTFOLIO_DATA } from '@/config/portfolio';
+import { getPortfolio } from '@/config/portfolio';
 import styles from './Portfolio.module.css';
 
-const LABEL_MAP = {
-  'design': 'Diseño',
-  'fabrication-3d': 'Fabricación 3D',
-  'nfc': 'Tarjetas Inteligentes',
-  'dtf': 'DTF',
-  'signage': 'Rotulación',
-  'audiovisual': 'Audiovisual'
+const DICT = {
+  es: {
+    subtitle: 'Casos De Éxito',
+    title: 'Portafolio de Trabajos',
+    filterAll: 'Todos',
+    categories: {
+      'design': 'Diseño',
+      'fabrication-3d': 'Fabricación 3D',
+      'nfc': 'Tarjetas Inteligentes',
+      'dtf': 'DTF',
+      'signage': 'Rotulación',
+      'audiovisual': 'Audiovisual'
+    }
+  },
+  en: {
+    subtitle: 'Success Stories',
+    title: 'Portfolio of Work',
+    filterAll: 'All',
+    categories: {
+      'design': 'Design',
+      'fabrication-3d': '3D Fabrication',
+      'nfc': 'Smart Cards',
+      'dtf': 'DTF',
+      'signage': 'Signage',
+      'audiovisual': 'Audiovisual'
+    }
+  }
 };
 
-// Generar categorías dinámicamente basadas en los proyectos actuales
-const uniqueServiceIds = [...new Set(PORTFOLIO_DATA.map(p => p.serviceId))];
-const CATEGORIES = [
-  { id: 'todos', label: 'Todos' },
-  ...uniqueServiceIds.map(id => ({ 
-    id, 
-    label: LABEL_MAP[id] || id 
-  }))
-];
-
-export default function Portfolio() {
+export default function Portfolio({ lang = 'es' }) {
+  const t = DICT[lang] || DICT['es'];
+  const portfolioData = getPortfolio(lang);
+  
   const [filter, setFilter] = useState('todos');
+
+  // Generar categorías dinámicamente
+  const uniqueServiceIds = [...new Set(portfolioData.map(p => p.serviceId))];
+  const categories = [
+    { id: 'todos', label: t.filterAll },
+    ...uniqueServiceIds.map(id => ({ 
+      id, 
+      label: t.categories[id] || id 
+    }))
+  ];
 
   // Filtrado de proyectos
   const filteredProjects = filter === 'todos' 
-    ? PORTFOLIO_DATA 
-    : PORTFOLIO_DATA.filter(project => project.serviceId === filter);
+    ? portfolioData 
+    : portfolioData.filter(project => project.serviceId === filter);
 
   return (
     <section id="portafolio" className={styles.portfolio} data-testid="portfolio-section">
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <span className={styles.subtitle}>Casos De Éxito</span>
-          <h2 className={styles.title}>Portafolio de Trabajos</h2>
+          <span className={styles.subtitle}>{t.subtitle}</span>
+          <h2 className={styles.title}>{t.title}</h2>
         </div>
 
         {/* Botones de Filtro */}
         <div className={styles.filterContainer}>
-          {CATEGORIES.map((cat) => (
+          {categories.map((cat) => (
             <button
               key={cat.id}
               onClick={() => setFilter(cat.id)}

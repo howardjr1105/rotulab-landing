@@ -9,10 +9,10 @@ export const metadata = {
  * Página Contacto (/contacto).
  * Renderiza el formulario de contacto para iniciar proyectos con ROTULAB.
  */
-export default function ContactoPage() {
+export default function ContactoPage({ params: { lang } }) {
   return (
     <main style={{ paddingTop: '80px', minHeight: 'calc(100vh - 120px)' }}>
-      <Contact />
+      <Contact lang={lang} />
     </main>
   );
 }

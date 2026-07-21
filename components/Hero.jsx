@@ -4,10 +4,27 @@ import { motion } from 'framer-motion';
 import { ArrowRight, MessageSquare } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { businessConfig } from '@/config/business';
+import { getBusinessConfig } from '@/config/business';
 import styles from './Hero.module.css';
 
-export default function Hero() {
+const DICT = {
+  es: {
+    badge: 'Fabricación Digital de Vanguardia',
+    titleHighlight: 'Innovación en Publicidad',
+    btnServices: 'Ver Servicios',
+    btnContact: 'Contáctanos'
+  },
+  en: {
+    badge: 'State-of-the-art Digital Fabrication',
+    titleHighlight: 'Innovation in Advertising',
+    btnServices: 'View Services',
+    btnContact: 'Contact Us'
+  }
+};
+
+export default function Hero({ lang = 'es' }) {
+  const t = DICT[lang] || DICT['es'];
+  const businessConfig = getBusinessConfig(lang);
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -45,7 +62,7 @@ export default function Hero() {
       >
         {/* Badge superior */}
         <motion.div className={styles.badge} variants={itemVariants}>
-          Fabricación Digital de Vanguardia
+          {t.badge}
         </motion.div>
 
         {/* Logo gigante centrado */}
@@ -98,10 +115,10 @@ export default function Hero() {
         <motion.h1 
           className={styles.title} 
           variants={itemVariants}
-          aria-label={`${businessConfig.name} Innovación en Publicidad`}
+          aria-label={`${businessConfig.name} ${t.titleHighlight}`}
         >
           <span className={styles.titleHighlight} aria-hidden="true">
-            Innovación en Publicidad
+            {t.titleHighlight}
           </span>
         </motion.h1>
 
@@ -112,12 +129,12 @@ export default function Hero() {
 
         {/* CTAs */}
         <motion.div className={styles.ctaContainer} variants={itemVariants}>
-          <Link href="/servicios" className={`${styles.btn} ${styles.btnCyan}`}>
-            Ver Servicios
+          <Link href={`/${lang}/servicios`} className={`${styles.btn} ${styles.btnCyan}`}>
+            {t.btnServices}
             <ArrowRight size={18} />
           </Link>
-          <Link href="/contacto" className={`${styles.btn} ${styles.btnOutline}`}>
-            Contáctanos
+          <Link href={`/${lang}/contacto`} className={`${styles.btn} ${styles.btnOutline}`}>
+            {t.btnContact}
             <MessageSquare size={18} />
           </Link>
         </motion.div>

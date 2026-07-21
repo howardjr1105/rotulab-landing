@@ -5,10 +5,10 @@ import Hero from '@/components/Hero';
  * En la estructura multipágina directa, esta página actúa como hub de entrada 
  * renderizando únicamente el componente Hero de alto impacto visual.
  */
-export default function Home() {
+export default function Home({ params: { lang } }) {
   return (
     <main style={{ minHeight: '100vh' }}>
-      <Hero />
+      <Hero lang={lang} />
     </main>
   );
 }

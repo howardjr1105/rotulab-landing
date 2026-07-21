@@ -3,10 +3,53 @@
 import { motion } from 'framer-motion';
 import { Target, Eye } from 'lucide-react';
 import { FacebookIcon, InstagramIcon, TikTokIcon } from '@/components/icons/SocialIcons';
-import { businessConfig } from '@/config/business';
+import { getBusinessConfig } from '@/config/business';
 import styles from './About.module.css';
 
-export default function About() {
+const DICT = {
+  es: {
+    statPrecision: 'Precisión',
+    statTech: 'Tecnología',
+    statMod: 'Modelado',
+    statPrint: 'Impresión',
+    title: '¿Quiénes Somos?',
+    desc1: 'es una empresa vanguardista especializada en soluciones integrales de publicidad, rotulación y fabricación digital. Nuestro enfoque combina el ',
+    desc2: ' gráfico de alta precisión con tecnología de punta para materializar la identidad visual de marcas y negocios. Desde la conceptualización hasta el producto final, transformamos ideas en piezas tangibles, funcionales y de alto impacto estético.',
+    desc3: 'Destacamos por no ser una agencia de publicidad tradicional; integramos flujos de trabajo modernos, maquinaria de última generación y soluciones interactivas para ofrecer a nuestros clientes productos que no solo se ven bien, sino que conectan con su audiencia en la era digital mediante constante ',
+    desc4: ' y excelente ',
+    wordDesign: 'diseño',
+    wordInnovation: 'innovación',
+    wordQuality: 'calidad',
+    missionTitle: 'Misión',
+    missionText: 'Fusionar el arte del diseño tradicional con las herramientas tecnológicas de fabricación más eficientes y modernas del mercado, garantizando que cada pieza creada cumpla con altos estándares de precisión y conecte significativamente a las marcas con sus audiencias.',
+    visionTitle: 'Visión',
+    visionText: 'Liderar el sector como el aliado estratégico preferido de empresas y emprendedores en la era digital. Aspiramos a ser el referente en innovación y tecnología en fabricación digital, transformando ideas complejas en realidades físicas y construyendo el futuro del merchandising y la señalización comercial.',
+    socialTitle: 'Conecta Con Nosotros'
+  },
+  en: {
+    statPrecision: 'Precision',
+    statTech: 'Technology',
+    statMod: 'Modeling',
+    statPrint: 'Printing',
+    title: 'Who Are We?',
+    desc1: 'is a state-of-the-art company specialized in comprehensive advertising, signage, and digital fabrication solutions. Our approach combines high-precision graphic ',
+    desc2: ' with cutting-edge technology to materialize the visual identity of brands and businesses. From conceptualization to the final product, we transform ideas into tangible, functional, and highly aesthetic pieces.',
+    desc3: 'We stand out by not being a traditional advertising agency; we integrate modern workflows, latest-generation machinery, and interactive solutions to offer our clients products that not only look good, but connect with their audience in the digital age through constant ',
+    desc4: ' and excellent ',
+    wordDesign: 'design',
+    wordInnovation: 'innovation',
+    wordQuality: 'quality',
+    missionTitle: 'Mission',
+    missionText: 'To merge the art of traditional design with the most efficient and modern technological manufacturing tools on the market, ensuring that each piece created meets high precision standards and meaningfully connects brands with their audiences.',
+    visionTitle: 'Vision',
+    visionText: 'To lead the sector as the preferred strategic ally of companies and entrepreneurs in the digital age. We aspire to be the benchmark for innovation and technology in digital manufacturing, transforming complex ideas into physical realities and building the future of merchandising and commercial signage.',
+    socialTitle: 'Connect With Us'
+  }
+};
+
+export default function About({ lang = 'es' }) {
+  const t = DICT[lang] || DICT['es'];
+  const businessConfig = getBusinessConfig(lang);
   const fadeUpVariants = {
     hidden: { opacity: 0, y: 40 },
     visible: {
@@ -34,19 +77,19 @@ export default function About() {
             <div className={styles.statGrid}>
               <div className={styles.statItem}>
                 <span className={styles.statNumber}>100%</span>
-                <span className={styles.statLabel}>Precisión</span>
+                <span className={styles.statLabel}>{t.statPrecision}</span>
               </div>
               <div className={styles.statItem}>
                 <span className={styles.statNumber}>NFC</span>
-                <span className={styles.statLabel}>Tecnología</span>
+                <span className={styles.statLabel}>{t.statTech}</span>
               </div>
               <div className={styles.statItem}>
                 <span className={styles.statNumber}>3D</span>
-                <span className={styles.statLabel}>Modelado</span>
+                <span className={styles.statLabel}>{t.statMod}</span>
               </div>
               <div className={styles.statItem}>
                 <span className={styles.statNumber}>DTF</span>
-                <span className={styles.statLabel}>Impresión</span>
+                <span className={styles.statLabel}>{t.statPrint}</span>
               </div>
             </div>
           </motion.div>
@@ -60,13 +103,13 @@ export default function About() {
             variants={fadeUpVariants}
           >
             <div className={styles.sectionHeader}>
-              <h2 className={styles.title}>¿Quiénes Somos?</h2>
+              <h2 className={styles.title}>{t.title}</h2>
             </div>
             <p className={styles.description}>
-              <span className={styles.descriptionHighlight}>Rotulab</span> es una empresa vanguardista especializada en soluciones integrales de publicidad, rotulación y fabricación digital. Nuestro enfoque combina el <span className={styles.descriptionHighlight}>diseño</span> gráfico de alta precisión con tecnología de punta para materializar la identidad visual de marcas y negocios. Desde la conceptualización hasta el producto final, transformamos ideas en piezas tangibles, funcionales y de alto impacto estético.
+              <span className={styles.descriptionHighlight}>Rotulab</span> {t.desc1}<span className={styles.descriptionHighlight}>{t.wordDesign}</span>{t.desc2}
             </p>
             <p className={styles.description}>
-              Destacamos por no ser una agencia de publicidad tradicional; integramos flujos de trabajo modernos, maquinaria de última generación y soluciones interactivas para ofrecer a nuestros clientes productos que no solo se ven bien, sino que conectan con su audiencia en la era digital mediante constante <span className={styles.descriptionHighlight}>innovación</span> y excelente <span className={styles.descriptionHighlight}>calidad</span>.
+              {t.desc3}<span className={styles.descriptionHighlight}>{t.wordInnovation}</span>{t.desc4}<span className={styles.descriptionHighlight}>{t.wordQuality}</span>.
             </p>
           </motion.div>
         </div>
@@ -88,9 +131,9 @@ export default function About() {
             <div className={`${styles.cardIcon} ${styles.cardIconCyan}`}>
               <Target size={24} />
             </div>
-            <h3 className={styles.cardTitle}>Misión</h3>
+            <h3 className={styles.cardTitle}>{t.missionTitle}</h3>
             <p className={styles.cardText}>
-              Fusionar el arte del diseño tradicional con las herramientas tecnológicas de fabricación más eficientes y modernas del mercado, garantizando que cada pieza creada cumpla con altos estándares de precisión y conecte significativamente a las marcas con sus audiencias.
+              {t.missionText}
             </p>
           </motion.div>
  
@@ -109,9 +152,9 @@ export default function About() {
             <div className={`${styles.cardIcon} ${styles.cardIconOrange}`}>
               <Eye size={24} />
             </div>
-            <h3 className={styles.cardTitle}>Visión</h3>
+            <h3 className={styles.cardTitle}>{t.visionTitle}</h3>
             <p className={styles.cardText}>
-              Liderar el sector como el aliado estratégico preferido de empresas y emprendedores en la era digital. Aspiramos a ser el referente en innovación y tecnología en fabricación digital, transformando ideas complejas en realidades físicas y construyendo el futuro del merchandising y la señalización comercial.
+              {t.visionText}
             </p>
           </motion.div>
         </div>
@@ -124,7 +167,7 @@ export default function About() {
           viewport={{ once: true }}
           variants={fadeUpVariants}
         >
-          <h3 className={styles.socialTitle}>Conecta Con Nosotros</h3>
+          <h3 className={styles.socialTitle}>{t.socialTitle}</h3>
           <div className={styles.socialLinks}>
             {/* Instagram */}
             <a

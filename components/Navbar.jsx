@@ -5,13 +5,29 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
-import { businessConfig } from '@/config/business';
+import { getBusinessConfig } from '@/config/business';
+import LanguageSwitcher from './LanguageSwitcher';
 import styles from './Navbar.module.css';
 
-export default function Navbar() {
+const DICT = {
+  es: {
+    closeMenu: 'Cerrar menú',
+    openMenu: 'Abrir menú'
+  },
+  en: {
+    closeMenu: 'Close menu',
+    openMenu: 'Open menu'
+  }
+};
+
+export default function Navbar({ lang = 'es' }) {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+  const t = DICT[lang] || DICT['es'];
+
+  // Load config dynamically based on language
+  const config = getBusinessConfig(lang);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,7 +54,7 @@ export default function Navbar() {
     <nav className={`${styles.navbar} ${scrolled ? styles.navbarScrolled : ''}`}>
       <div className={styles.container}>
         {/* Logo de la Marca */}
-        <Link href="/" className={styles.logoContainer} onClick={closeMenu}>
+        <Link href={`/${lang}`} className={styles.logoContainer} onClick={closeMenu}>
           <Image
             src="/images/logos/2026_01_03_11_15_00_IMG_0018.PNG"
             alt="Logo de Rotulab"
@@ -53,12 +69,13 @@ export default function Navbar() {
 
         {/* Enlaces de Navegación de Escritorio */}
         <ul className={styles.navLinks}>
-          {businessConfig.navigation.map((link) => {
-            const isActive = pathname === link.path;
+          {config.navigation.map((link) => {
+            const localizedPath = link.path === '/' ? `/${lang}` : `/${lang}${link.path}`;
+            const isActive = pathname === localizedPath || pathname === `${localizedPath}/`;
             return (
               <li key={link.path}>
                 <Link 
-                  href={link.path} 
+                  href={localizedPath} 
                   className={`${styles.navLink} ${isActive ? styles.navLinkActive : ''}`}
                 >
                   {link.name}
@@ -66,6 +83,9 @@ export default function Navbar() {
               </li>
             );
           })}
+          <li>
+            <LanguageSwitcher />
+          </li>
         </ul>
 
         {/* Botón de Menú Móvil */}
@@ -74,7 +94,7 @@ export default function Navbar() {
           className={styles.menuButton}
           aria-expanded={isOpen}
           aria-controls="mobile-menu-nav"
-          aria-label={isOpen ? 'Cerrar menú' : 'Abrir menú'}
+          aria-label={isOpen ? t.closeMenu : t.openMenu}
         >
           {isOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -83,12 +103,13 @@ export default function Navbar() {
         {isOpen && (
           <div id="mobile-menu-nav" className={`${styles.mobileMenu} ${styles.mobileMenuOpen}`}>
             <ul className={styles.mobileNavLinks}>
-              {businessConfig.navigation.map((link) => {
-                const isActive = pathname === link.path;
+              {config.navigation.map((link) => {
+                const localizedPath = link.path === '/' ? `/${lang}` : `/${lang}${link.path}`;
+                const isActive = pathname === localizedPath || pathname === `${localizedPath}/`;
                 return (
                   <li key={link.path}>
                     <Link
-                      href={link.path}
+                      href={localizedPath}
                       className={`${styles.mobileNavLink} ${isActive ? styles.mobileNavLinkActive : ''}`}
                       onClick={closeMenu}
                     >
@@ -97,6 +118,9 @@ export default function Navbar() {
                   </li>
                 );
               })}
+              <li className={styles.mobileNavLink}>
+                <LanguageSwitcher />
+              </li>
             </ul>
           </div>
         )}

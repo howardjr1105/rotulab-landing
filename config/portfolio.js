@@ -11,43 +11,84 @@
  * @property {string} year - Año de realización.
  */
 
+const portfolioDict = {
+  es: [
+    {
+      id: "rotulacion-camioneta",
+      title: "Rotulación Vehicular de Camioneta Comercial",
+      serviceId: "signage",
+      description: "Rotulación vehicular de camioneta en Asheville mediante vinilo premium Avery/3M (letras de corte y cobertura parcial).",
+      sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_16_20_IMG_0469.JPG",
+      publicUrl: "/images/portfolio/2026_05_11_18_16_20_IMG_0469.JPG",
+      tags: ["Rotulación", "Camioneta", "Asheville"],
+      clientName: "Cliente Local",
+      year: "2026"
+    },
+    {
+      id: "rotulacion-van",
+      title: "Rotulación Vehicular de Van",
+      serviceId: "signage",
+      description: "Rotulación comercial de van de reparto con diseño y aplicación de vinilo adhesivo de alta durabilidad.",
+      sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_17_32_IMG_0471.JPG",
+      publicUrl: "/images/portfolio/2026_05_11_18_17_32_IMG_0471.JPG",
+      tags: ["Rotulación", "Van", "Publicidad"],
+      clientName: "Cliente Local",
+      year: "2026"
+    },
+    {
+      id: "tarjetas-nfc-logos",
+      title: "Tarjetas de Presentación Personalizadas",
+      serviceId: "nfc",
+      description: "Tarjetas de presentación premium en PVC/Acrílico con tecnología NFC integrada, permitiendo compartir datos de contacto al instante.",
+      sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/IMG_5641.jpg",
+      publicUrl: "/images/portfolio/IMG_5641.jpg",
+      tags: ["NFC", "Tarjetas", "PVC"],
+      clientName: "Cliente Local",
+      year: "2026"
+    }
+  ],
+  en: [
+    {
+      id: "rotulacion-camioneta",
+      title: "Commercial Truck Vehicle Lettering",
+      serviceId: "signage",
+      description: "Vehicle lettering of a truck in Asheville using premium Avery/3M vinyl (cut letters and partial coverage).",
+      sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_16_20_IMG_0469.JPG",
+      publicUrl: "/images/portfolio/2026_05_11_18_16_20_IMG_0469.JPG",
+      tags: ["Lettering", "Truck", "Asheville"],
+      clientName: "Local Client",
+      year: "2026"
+    },
+    {
+      id: "rotulacion-van",
+      title: "Van Vehicle Lettering",
+      serviceId: "signage",
+      description: "Commercial lettering of a delivery van with design and application of high-durability adhesive vinyl.",
+      sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_17_32_IMG_0471.JPG",
+      publicUrl: "/images/portfolio/2026_05_11_18_17_32_IMG_0471.JPG",
+      tags: ["Lettering", "Van", "Advertising"],
+      clientName: "Local Client",
+      year: "2026"
+    },
+    {
+      id: "tarjetas-nfc-logos",
+      title: "Custom Business Cards",
+      serviceId: "nfc",
+      description: "Premium PVC/Acrylic business cards with integrated NFC technology, allowing you to share contact details instantly.",
+      sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/IMG_5641.jpg",
+      publicUrl: "/images/portfolio/IMG_5641.jpg",
+      tags: ["NFC", "Cards", "PVC"],
+      clientName: "Local Client",
+      year: "2026"
+    }
+  ]
+};
+
 /**
- * Contrato de datos para la galería de trabajos realizados (Portafolio) de ROTULAB.
- * Mapea la relación entre las imágenes originales descargadas y el recurso estático servido por Next.js.
- * @type {PortfolioItem[]}
+ * Retorna el portafolio basado en el idioma.
+ * @param {string} lang Idioma ('es' o 'en')
+ * @returns {PortfolioItem[]} Arreglo de proyectos traducidos.
  */
-export const PORTFOLIO_DATA = [
-  {
-    id: "rotulacion-camioneta",
-    title: "Rotulación Vehicular de Camioneta Comercial",
-    serviceId: "signage",
-    description: "Rotulación vehicular de camioneta en Asheville mediante vinilo premium Avery/3M (letras de corte y cobertura parcial).",
-    sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_16_20_IMG_0469.JPG",
-    publicUrl: "/images/portfolio/2026_05_11_18_16_20_IMG_0469.JPG",
-    tags: ["Rotulación", "Camioneta", "Asheville"],
-    clientName: "Cliente Local",
-    year: "2026"
-  },
-  {
-    id: "rotulacion-van",
-    title: "Rotulación Vehicular de Van",
-    serviceId: "signage",
-    description: "Rotulación comercial de van de reparto con diseño y aplicación de vinilo adhesivo de alta durabilidad.",
-    sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/2026_05_11_18_17_32_IMG_0471.JPG",
-    publicUrl: "/images/portfolio/2026_05_11_18_17_32_IMG_0471.JPG",
-    tags: ["Rotulación", "Van", "Publicidad"],
-    clientName: "Cliente Local",
-    year: "2026"
-  },
-  {
-    id: "tarjetas-nfc-logos",
-    title: "Tarjetas de Presentación Personalizadas",
-    serviceId: "nfc",
-    description: "Tarjetas de presentación premium en PVC/Acrílico con tecnología NFC integrada, permitiendo compartir datos de contacto al instante.",
-    sourceDownloadPath: "/Users/howardemiliosuarezcerrato/Downloads/TRABAUJOS/IMG_5641.jpg",
-    publicUrl: "/images/portfolio/IMG_5641.jpg",
-    tags: ["NFC", "Tarjetas", "PVC"],
-    clientName: "Cliente Local",
-    year: "2026"
-  }
-];
+export const getPortfolio = (lang = 'es') => {
+  return portfolioDict[lang] || portfolioDict['es'];
+};

@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Shirt, Cpu, Layers, Scissors, MapPin, Video, X, Check, Activity, Palette } from 'lucide-react';
-import { SERVICES_DATA } from '@/config/services';
+import { getServices } from '@/config/services';
 import styles from './Services.module.css';
 
 // Mapeo de strings de iconos a componentes reales de Lucide
@@ -30,7 +30,29 @@ const getNeonColors = (serviceId) => {
   };
 };
 
-export default function Services() {
+const DICT = {
+  es: {
+    subtitle: 'Lo Que Ofrecemos',
+    title: 'Nuestros Servicios',
+    btnSpecs: 'Ver especificaciones',
+    modalAriaClose: 'Cerrar modal',
+    specsTitle: 'Especificaciones Técnicas',
+    featuresTitle: 'Características del Servicio'
+  },
+  en: {
+    subtitle: 'What We Offer',
+    title: 'Our Services',
+    btnSpecs: 'View specifications',
+    modalAriaClose: 'Close modal',
+    specsTitle: 'Technical Specifications',
+    featuresTitle: 'Service Features'
+  }
+};
+
+export default function Services({ lang = 'es' }) {
+  const t = DICT[lang] || DICT['es'];
+  const servicesData = getServices(lang);
+  
   const [activeService, setActiveService] = useState(null);
 
   const containerVariants = {
@@ -59,8 +81,8 @@ export default function Services() {
     <section id="servicios" className={styles.services} data-testid="services-section">
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <span className={styles.subtitle}>Lo Que Ofrecemos</span>
-          <h2 className={styles.title}>Nuestros Servicios</h2>
+          <span className={styles.subtitle}>{t.subtitle}</span>
+          <h2 className={styles.title}>{t.title}</h2>
         </div>
 
         {/* Grid de Tarjetas */}
@@ -71,7 +93,7 @@ export default function Services() {
           whileInView="visible"
           viewport={{ once: true, margin: '-100px' }}
         >
-          {SERVICES_DATA.map((service) => {
+          {servicesData.map((service) => {
             const colors = getNeonColors(service.id);
             return (
               <motion.article
@@ -106,7 +128,7 @@ export default function Services() {
                   className={styles.btnSpecs}
                   onClick={() => setActiveService(service)}
                 >
-                  Ver especificaciones
+                  {t.btnSpecs}
                 </button>
               </motion.article>
             );
@@ -148,7 +170,7 @@ export default function Services() {
                   <button
                     className={styles.modalCloseBtn}
                     onClick={() => setActiveService(null)}
-                    aria-label="Cerrar modal"
+                    aria-label={t.modalAriaClose}
                   >
                     <X size={20} />
                   </button>
@@ -163,7 +185,7 @@ export default function Services() {
                   {/* Especificaciones Técnicas */}
                   <h4 className={styles.specsTitle}>
                     <Activity size={18} style={{ color: getNeonColors(activeService.id).accent }} />
-                    Especificaciones Técnicas
+                    {t.specsTitle}
                   </h4>
                   <ul className={styles.specsList}>
                     {activeService.specifications.map((spec, i) => (
@@ -174,7 +196,7 @@ export default function Services() {
                   </ul>
 
                   {/* Características */}
-                  <h4 className={styles.featuresTitle}>Características del Servicio</h4>
+                  <h4 className={styles.featuresTitle}>{t.featuresTitle}</h4>
                   <ul className={styles.featuresList}>
                     {activeService.features.map((feature, i) => (
                       <li key={i} className={styles.featureItem}>

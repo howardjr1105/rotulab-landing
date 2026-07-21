@@ -3,10 +3,56 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Send, Phone, Mail, MapPin } from 'lucide-react';
-import { businessConfig } from '@/config/business';
+import { getBusinessConfig } from '@/config/business';
 import styles from './Contact.module.css';
 
-export default function Contact() {
+const DICT = {
+  es: {
+    subtitle: 'Comencemos Tu Proyecto',
+    title: 'Contáctanos',
+    infoTitle: '¿Tienes una idea en mente?',
+    infoText: 'Ponte en contacto con nosotros hoy mismo. Ya sea para uniformes en DTF, llaveros interactivos NFC, corte láser preciso, impresión 3D o producción audiovisual, estamos listos para fabricar tus ideas con la mayor calidad y tecnología.',
+    labelPhone: 'WhatsApp / Teléfono',
+    labelEmail: 'Correo Electrónico',
+    labelLocation: 'Ubicación',
+    labelName: 'Nombre',
+    labelMessage: 'Mensaje',
+    placeholderName: 'Tu nombre completo',
+    placeholderEmail: 'tu@correo.com',
+    placeholderMessage: 'Describe las especificaciones de tu proyecto...',
+    btnSubmit: 'Enviar por WhatsApp',
+    errName: 'El nombre es obligatorio',
+    errEmailReq: 'El correo es obligatorio',
+    errEmailInv: 'Correo no es válido',
+    errMessage: 'El mensaje es obligatorio',
+    msgPrefix: 'Hola Rotulab, mi nombre es'
+  },
+  en: {
+    subtitle: 'Let\'s Start Your Project',
+    title: 'Contact Us',
+    infoTitle: 'Do you have an idea in mind?',
+    infoText: 'Get in touch with us today. Whether for DTF uniforms, interactive NFC keychains, precise laser cutting, 3D printing, or audiovisual production, we are ready to manufacture your ideas with the highest quality and technology.',
+    labelPhone: 'WhatsApp / Phone',
+    labelEmail: 'Email',
+    labelLocation: 'Location',
+    labelName: 'Name',
+    labelMessage: 'Message',
+    placeholderName: 'Your full name',
+    placeholderEmail: 'you@email.com',
+    placeholderMessage: 'Describe the specifications of your project...',
+    btnSubmit: 'Send via WhatsApp',
+    errName: 'Name is required',
+    errEmailReq: 'Email is required',
+    errEmailInv: 'Invalid email',
+    errMessage: 'Message is required',
+    msgPrefix: 'Hello Rotulab, my name is'
+  }
+};
+
+export default function Contact({ lang = 'es' }) {
+  const t = DICT[lang] || DICT['es'];
+  const businessConfig = getBusinessConfig(lang);
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -19,20 +65,20 @@ export default function Contact() {
     const newErrors = {};
     
     if (!formData.name.trim()) {
-      newErrors.name = 'El nombre es obligatorio';
+      newErrors.name = t.errName;
     }
     
     if (!formData.email.trim()) {
-      newErrors.email = 'El correo es obligatorio';
+      newErrors.email = t.errEmailReq;
     } else {
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       if (!emailRegex.test(formData.email)) {
-        newErrors.email = 'Correo no es válido';
+        newErrors.email = t.errEmailInv;
       }
     }
     
     if (!formData.message.trim()) {
-      newErrors.message = 'El mensaje es obligatorio';
+      newErrors.message = t.errMessage;
     }
 
     setErrors(newErrors);
@@ -52,7 +98,7 @@ export default function Contact() {
     
     if (validate()) {
       const whatsappUrl = new URL(businessConfig.contact.whatsapp);
-      const textMessage = `Hola Rotulab, mi nombre es ${formData.name}. Email: ${formData.email}. Mensaje: ${formData.message}`;
+      const textMessage = `${t.msgPrefix} ${formData.name}. Email: ${formData.email}. Mensaje: ${formData.message}`;
       const encodedText = encodeURIComponent(textMessage);
       const targetUrl = `${whatsappUrl.href}?text=${encodedText}`;
       
@@ -73,18 +119,16 @@ export default function Contact() {
     <section id="contacto" className={styles.contact}>
       <div className={styles.container}>
         <div className={styles.sectionHeader}>
-          <span className={styles.subtitle}>Comencemos Tu Proyecto</span>
-          <h2 className={styles.title}>Contáctanos</h2>
+          <span className={styles.subtitle}>{t.subtitle}</span>
+          <h2 className={styles.title}>{t.title}</h2>
         </div>
 
         <div className={styles.grid}>
           {/* Columna de Información */}
           <div className={styles.infoColumn}>
-            <h3 className={styles.infoTitle}>¿Tienes una idea en mente?</h3>
+            <h3 className={styles.infoTitle}>{t.infoTitle}</h3>
             <p className={styles.infoText}>
-              Ponte en contacto con nosotros hoy mismo. Ya sea para uniformes en DTF,
-              llaveros interactivos NFC, corte láser preciso, impresión 3D o producción audiovisual,
-              estamos listos para fabricar tus ideas con la mayor calidad y tecnología.
+              {t.infoText}
             </p>
 
             <div className={styles.infoCard}>
@@ -92,7 +136,7 @@ export default function Contact() {
                 <Phone size={20} />
               </div>
               <div className={styles.infoDetail}>
-                <span className={styles.infoLabel}>WhatsApp / Teléfono</span>
+                <span className={styles.infoLabel}>{t.labelPhone}</span>
                 <span className={styles.infoValue}>{businessConfig.contact.phone}</span>
               </div>
             </div>
@@ -102,7 +146,7 @@ export default function Contact() {
                 <Mail size={20} />
               </div>
               <div className={styles.infoDetail}>
-                <span className={styles.infoLabel}>Correo Electrónico</span>
+                <span className={styles.infoLabel}>{t.labelEmail}</span>
                 <span className={styles.infoValue}>{businessConfig.contact.email}</span>
               </div>
             </div>
@@ -112,7 +156,7 @@ export default function Contact() {
                 <MapPin size={20} />
               </div>
               <div className={styles.infoDetail}>
-                <span className={styles.infoLabel}>Ubicación</span>
+                <span className={styles.infoLabel}>{t.labelLocation}</span>
                 <span className={styles.infoValue}>{businessConfig.contact.address}</span>
               </div>
             </div>
@@ -124,7 +168,7 @@ export default function Contact() {
               {/* Campo Nombre */}
               <div className={styles.formGroup}>
                 <label htmlFor="name" className={styles.label}>
-                  Nombre
+                  {t.labelName}
                 </label>
                 <input
                   type="text"
@@ -133,7 +177,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   className={`${styles.input} ${errors.name ? styles.inputError : ''}`}
-                  placeholder="Tu nombre completo"
+                  placeholder={t.placeholderName}
                   aria-invalid={errors.name ? "true" : "false"}
                   aria-describedby={errors.name ? "name-error" : undefined}
                 />
@@ -147,7 +191,7 @@ export default function Contact() {
               {/* Campo Correo */}
               <div className={styles.formGroup}>
                 <label htmlFor="email" className={styles.label}>
-                  Correo electrónico
+                  {t.labelEmail}
                 </label>
                 <input
                   type="email"
@@ -156,7 +200,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   className={`${styles.input} ${errors.email ? styles.inputError : ''}`}
-                  placeholder="tu@correo.com"
+                  placeholder={t.placeholderEmail}
                   aria-invalid={errors.email ? "true" : "false"}
                   aria-describedby={errors.email ? "email-error" : undefined}
                 />
@@ -170,7 +214,7 @@ export default function Contact() {
               {/* Campo Mensaje */}
               <div className={styles.formGroup}>
                 <label htmlFor="message" className={styles.label}>
-                  Mensaje
+                  {t.labelMessage}
                 </label>
                 <textarea
                   id="message"
@@ -178,7 +222,7 @@ export default function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   className={`${styles.textarea} ${errors.message ? styles.inputError : ''}`}
-                  placeholder="Describe las especificaciones de tu proyecto..."
+                  placeholder={t.placeholderMessage}
                   aria-invalid={errors.message ? "true" : "false"}
                   aria-describedby={errors.message ? "message-error" : undefined}
                 />
@@ -194,7 +238,7 @@ export default function Contact() {
                 type="submit" 
                 className={styles.btnSubmit}
               >
-                Enviar por WhatsApp
+                {t.btnSubmit}
                 <Send size={18} />
               </button>
             </form>

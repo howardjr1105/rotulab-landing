@@ -9,10 +9,10 @@ export const metadata = {
  * Página Nosotros (/nosotros).
  * Muestra el propósito corporativo de ROTULAB y los accesos a redes sociales.
  */
-export default function NosotrosPage() {
+export default function NosotrosPage({ params: { lang } }) {
   return (
     <main style={{ paddingTop: '80px', minHeight: 'calc(100vh - 120px)' }}>
-      <About />
+      <About lang={lang} />
     </main>
   );
 }
